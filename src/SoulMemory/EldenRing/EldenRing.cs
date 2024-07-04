@@ -67,7 +67,7 @@ namespace SoulMemory.EldenRing
 
             treeBuilder
                 //.ScanRelative("VirtualMemoryFlag", "48 83 3d ? ? ? ? 00 75 46 4c 8b 05 ? ? ? ? 4c 89 44 24 40 ba 08 00 00 00 b9 c8 01 00 00", 3, 8)
-                .ScanRelative("VirtualMemoryFlag", "48 8b 3d ? ? ? ? 8b f3 89 5c 24 20 48 85 ff", 3, 7)
+                .ScanRelative("VirtualMemoryFlag", "48 8b 3d ? ? ? ? 48 85 ff ? ? 32 c0 e9", 3, 7)
                     .AddPointer(_virtualMemoryFlag, 0);
 
             treeBuilder
@@ -119,6 +119,8 @@ namespace SoulMemory.EldenRing
                 default:
                 case EldenRingVersion.V108:
                 case EldenRingVersion.V109:
+                case EldenRingVersion.V110:
+                case EldenRingVersion.V112:
                     _screenStateOffset = 0x728;
                     _positionOffset = 0x6d4;
                     _mapIdOffset = 0x6d0;
@@ -192,32 +194,51 @@ namespace SoulMemory.EldenRing
             V107,
             V108,
             V109,
+            V110,
+            V112,
             Unknown,
         };
 
         public EldenRingVersion GetVersion(Version v)
         {
-            switch (v.Minor)
+            switch (v.Major)
             {
                 default:
                     return EldenRingVersion.Unknown;
 
+                case 1:
+                    switch (v.Minor)
+                    {
+                        default:
+                            return EldenRingVersion.Unknown;
+                        case 2:
+                            return EldenRingVersion.V102;
+                        case 3:
+                            return EldenRingVersion.V103;
+                        case 4:
+                            return EldenRingVersion.V104;
+                        case 5:
+                            return EldenRingVersion.V105;
+                        case 6:
+                            return EldenRingVersion.V106;
+                        case 7:
+                            return EldenRingVersion.V107;
+                        case 8:
+                            return EldenRingVersion.V108;
+                        case 9:
+                            return EldenRingVersion.V109;
+                    }
+
                 case 2:
-                    return EldenRingVersion.V102;
-                case 3:
-                    return EldenRingVersion.V103;
-                case 4:
-                    return EldenRingVersion.V104;
-                case 5:
-                    return EldenRingVersion.V105;
-                case 6:
-                    return EldenRingVersion.V106;
-                case 7:
-                    return EldenRingVersion.V107;
-                case 8:
-                    return EldenRingVersion.V108;
-                case 9:
-                    return EldenRingVersion.V109;
+                    switch (v.Minor)
+                    {
+                        default:
+                            return EldenRingVersion.Unknown;
+                        case 0:
+                            return EldenRingVersion.V110;
+                        case 2:
+                            return EldenRingVersion.V112;
+                    }
             }
         }
 
@@ -581,19 +602,11 @@ namespace SoulMemory.EldenRing
                 return true; //code already injected. Return.
             }
 
-            var igtCodeCave = new Pointer();
-            var treeBuilder = new TreeBuilder();
-            treeBuilder
-                .ScanAbsolute("igtCodeCave", "48 8b c4 55 57 41 56 48 8d 68 b8 48 81 ec 30 01 00 00 48 c7 44 24 40 fe ff ff ff 48 89 58 18 48 89 70 20", 0)
-                .AddPointer(igtCodeCave);
-
-            
-            if (MemoryScanner.TryResolvePointers(treeBuilder, _process).IsErr)
+            long codeCave = AllocMemoryForRelativeJmp(igtFixEntryPoint, 0x100);
+            if (codeCave == 0L)
             {
                 return false;
             }
-
-            long codeCave = igtCodeCave.GetAddress();
 
             //The location used as code cave here is the constructor of the network test title screen. This code would never run under normal circumstances so we can overwrite it.
             //fix detour
@@ -660,7 +673,7 @@ namespace SoulMemory.EldenRing
             //Write fixes to game memory
             _process.NtSuspendProcess();
 
-            if(_process.WriteProcessMemory(codeCave,           igtFixCode.ToArray()).IsErr)
+            if (_process.WriteProcessMemory(codeCave,           igtFixCode.ToArray()).IsErr)
             {
                 return false;
             }
@@ -685,6 +698,24 @@ namespace SoulMemory.EldenRing
                 hex.AppendFormat("{0:x2} ", b);
             return hex.ToString();
         }
+
+        private long AllocMemoryForRelativeJmp(long address, int size)
+        {
+            long newAddr = (address - 0x40000000L) &~0xFFFL;
+            long endAddr = newAddr + 0x80000000L;
+            IntPtr allocAddr = IntPtr.Zero;
+            long step = size > 0x1000 ? (size + 0xFFF) & ~0xFFF : 0x1000;
+            while (newAddr < endAddr)
+            {
+                allocAddr = NativeMethods.VirtualAllocEx(_process.Handle, (IntPtr)newAddr,
+                    (IntPtr)size, Kernel32.MEM_RESERVE | Kernel32.MEM_COMMIT,
+                    Kernel32.PAGE_EXECUTE_READWRITE);
+                if (allocAddr != IntPtr.Zero) break;
+                newAddr += step;
+            }
+            return (long)allocAddr;
+        }
+
 
         #endregion
     }
