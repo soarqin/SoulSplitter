@@ -51,7 +51,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Stormveil - Godrick] Remembrance of the Grafted 510010")]
         StormveilGodrickRemembranceOfTheGrafted = 510010,
 
-        [AnnotationAttribute(Name = "[Chapel of Anticipation - Grafed Scion] Ornamental Straight Sword 510030")]
+        [AnnotationAttribute(Name = "[Chapel of Anticipation - Grafted Scion] Ornamental Straight Sword 510030")]
         ChapelOfAnticipationGrafedScionOrnamentalStraightSword = 510030,
 
         [AnnotationAttribute(Name = "[Leyndell - Morgott] Remembrance of the Omen King 510040")]
@@ -69,7 +69,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Ashen Leyndell - Hoarah Loux] Remembrance of Hoarah Loux 510070")]
         AshenLeyndellHoarahLouxRemembranceOfHoarahLoux = 510070,
 
-        [AnnotationAttribute(Name = "[Lake or Rot - Astel] Remembrance of the Naturalborn 510080")]
+        [AnnotationAttribute(Name = "[Lake of Rot - Astel] Remembrance of the Naturalborn 510080")]
         LakeorRotAstelRemembranceOfTheNaturalborn = 510080,
 
         [AnnotationAttribute(Name = "[Ainsel - Dragonkin Soldier] Frozen Lightning Spear 510090")]
@@ -123,7 +123,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Mt. Gelmir - Rykard] Rykard's Great Rune 174")]
         MtGelmirRykardRykardsGreatRune = 174,
 
-        [AnnotationAttribute(Name = "[Erdtree - Elden Beast] Elden Remembrance 510230")]
+        [AnnotationAttribute(Name = "[Elden Throne - Elden Beast] Elden Remembrance 510230")]
         ErdtreeEldenBeastEldenRemembrance = 510230,
 
         [AnnotationAttribute(Name = "[Mohgwyn Palace - Mohg] Bloodflame Talons 510250")]
@@ -165,13 +165,13 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Capital Outskirts - Fell Twins] Omenkiller Rollo 510740")]
         CapitalOutskirtsFellTwinsOmenkillerRollo = 510740,
 
-        [AnnotationAttribute(Name = "[Weeping Penisula - Leonine Misbegotten] Blade Greatsword 510800")]
+        [AnnotationAttribute(Name = "[Weeping Penisula - Leonine Misbegotten] Grafted Blade Greatsword 510800")]
         WeepingPenisulaLeonineMisbegottenBladeGreatsword = 510800,
 
         [AnnotationAttribute(Name = "[Caria Manor - Loretta] Loretta's Greatbow 510810")]
         CariaManorLorettaLorettasGreatbow = 510810,
 
-        [AnnotationAttribute(Name = "[Shaded Castle - Elemer of the Briar] Marais Executioner's Sword 510820")]
+        [AnnotationAttribute(Name = "[The Shaded Castle - Elemer of the Briar] Marais Executioner's Sword 510820")]
         ShadedCastleElemerOfTheBriarMaraisExecutionersSword = 510820,
 
         [AnnotationAttribute(Name = "[Redmane Castle - Misbegotten Warrior/Crucible Knight] Ruins Greatsword 510830")]
@@ -198,7 +198,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Black Knife Catacombs - Cemetery Shade] Twinsage Sorcerer Ashes 520050")]
         BlackKnifeCatacombsCemeteryShadeTwinsageSorcererAshes = 520050,
 
-        [AnnotationAttribute(Name = "[Road's End Catacombs - Spirit-caller Snail] Glintstone Sorcerer Ashes 520060")]
+        [AnnotationAttribute(Name = "[Road's End Catacombs - Spiritcaller Snail] Glintstone Sorcerer Ashes 520060")]
         RoadsEndCatacombsSpiritcallerSnailGlintstoneSorcererAshes = 520060,
 
         [AnnotationAttribute(Name = "[Cliffbottom Catacombs - Erdtree Burial Watchdog] Kaiden Sellsword Ashes 520070")]
@@ -207,13 +207,13 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Sainted Hero's Grave - Leyndell] Ancient Dragon Knight Kristoff 520080")]
         SaintedHerosGraveLeyndellAncientDragonKnightKristoff = 520080,
 
-        [AnnotationAttribute(Name = "[Gelmir's Heo's Grave - Mt. Gelmir] Bloodhound Knight Floh 520090")]
+        [AnnotationAttribute(Name = "[Gelmir Hero's Grave - Mt. Gelmir] Bloodhound Knight Floh 520090")]
         GelmirsHeosGraveMtGelmirBloodhoundKnightFloh = 520090,
 
-        [AnnotationAttribute(Name = "[Auriza Hero's Grave - Crucible Knigh Ordovis] Ordovis's Greatsword 520100")]
+        [AnnotationAttribute(Name = "[Auriza Hero's Grave - Crucible Knight Ordovis] Ordovis's Greatsword 520100")]
         AurizaHerosGraveCrucibleKnighOrdovisOrdovissGreatsword = 520100,
 
-        [AnnotationAttribute(Name = "[Unslightly Catacombs - Perfumer Tricia] Perfumer Tricia 520110")]
+        [AnnotationAttribute(Name = "[Unsightly Catacombs - Perfumer Tricia] Perfumer Tricia 520110")]
         UnslightlyCatacombsPerfumerTriciaPerfumerTricia = 520110,
 
         [AnnotationAttribute(Name = "[Wyndham Catacombs - Erdtree Burial Watchdog] Glovewort Picker's Bell Bearing [1] 520120")]
@@ -237,10 +237,10 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Giants' Mountaintop Catacombs - Ulcerated Tree Spirit] Golden Seed 520180")]
         GiantsMountaintopCatacombsUlceratedTreeSpiritGoldenSeed = 520180,
 
-        [AnnotationAttribute(Name = "[Consecrated Snowfiled Catacombs - Putrid Grave Warden Duelist] Great Grave Glovewort 520190")]
+        [AnnotationAttribute(Name = "[Consecrated Snowfield Catacombs - Putrid Grave Warden Duelist] Great Grave Glovewort 520190")]
         ConsecratedSnowfiledCatacombsPutridGraveWardenDuelistGreatGraveGlovewort = 520190,
 
-        [AnnotationAttribute(Name = "[Hidden Path ot the Haligtree - Stray Mimic Tear] Blackflame Monk Amon 520200")]
+        [AnnotationAttribute(Name = "[Hidden Path to the Haligtree - Stray Mimic Tear] Blackflame Monk Amon 520200")]
         HiddenPathotTheHaligtreeStrayMimicTearBlackflameMonkAmon = 520200,
 
         [AnnotationAttribute(Name = "[Black Knife Catacombs - Black Knife Assassin] Assassin's Cerulean Dagger 520210")]
@@ -279,7 +279,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Seethewater Cave - Kindred of Rot] Kindred of Rot's Exultation 520390")]
         SeethewaterCaveKindredOfRotKindredOfRotsExultation = 520390,
 
-        [AnnotationAttribute(Name = "[Volcano Cave - Demi-human Queen Margot] Jar Cannon 520400")]
+        [AnnotationAttribute(Name = "[Volcano Cave - Demi-Human Queen Margot] Jar Cannon 520400")]
         VolcanoCaveDemihumanQueenMargotJarCannon = 520400,
 
         [AnnotationAttribute(Name = "[Omenkiller - Perfumer's Grotto] Great Omenkiller Cleaver 520410")]
@@ -288,7 +288,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Sage's Cave - Black Knife Assassin] Concealing Veil 520420")]
         SagesCaveBlackKnifeAssassinConcealingVeil = 520420,
 
-        [AnnotationAttribute(Name = "[Goal Cave - Frenzied Duelist] Putrid Corpse Ashes 520430")]
+        [AnnotationAttribute(Name = "[Gaol Cave - Frenzied Duelist] Putrid Corpse Ashes 520430")]
         GoalCaveFrenziedDuelistPutridCorpseAshes = 520430,
 
         [AnnotationAttribute(Name = "[Dragonbarrow Cave - Beastman of Farum Azula] Flamedrake Talisman +2 520440")]
@@ -303,7 +303,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Cave of the Forlorn - Misbegotten Crusader] Golden Order Greatsword 520470")]
         CaveOfTheForlornMisbegottenCrusaderGoldenOrderGreatsword = 520470,
 
-        [AnnotationAttribute(Name = "[Spiritcaller's Cave - Godskin Apostle/Noble] Godskin Swaddling Cloth 520480")]
+        [AnnotationAttribute(Name = "[Spiritcaller Cave - Spiritcaller Snail] Godskin Swaddling Cloth 520480")]
         SpiritcallersCaveGodskinApostleNobleGodskinSwaddlingCloth = 520480,
 
         [AnnotationAttribute(Name = "[Sage's Cave - Necromancer Garris] Family Heads 520490")]
@@ -420,7 +420,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Altus Plateau - Field - Black Knife Assassin] Black Knife 530350")]
         AltusPlateauFieldBlackKnifeAssassinBlackKnife = 530350,
 
-        [AnnotationAttribute(Name = "[Mt. Gelmir - Field - Full-grown Fallingstar Beast] Somber Smithing Stone [6] 530375")]
+        [AnnotationAttribute(Name = "[Mt. Gelmir - Field - Full-Grown Fallingstar Beast] Somber Smithing Stone [6] 530375")]
         MtGelmirFieldFullgrownFallingstarBeastSomberSmithingStone6 = 530375,
 
         [AnnotationAttribute(Name = "[Mt. Gelmir - Field - Ulcerated Tree Spirit] Leaden Hardtear 65180")]
@@ -459,13 +459,13 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Caelid - Field - Flying Dragon Greyll] Dragon Heart 530420")]
         CaelidFieldFlyingDragonGreyllDragonHeart = 530420,
 
-        [AnnotationAttribute(Name = "[Caelid - Field - Blade Blade Kindred] Gargoyle's Blackblade 530425")]
+        [AnnotationAttribute(Name = "[Caelid - Field - Black Blade Kindred] Gargoyle's Blackblade 530425")]
         CaelidFieldBladeBladeKindredGargoylesBlackblade = 530425,
 
         [AnnotationAttribute(Name = "[Forbidden Lands - Field - Black Blade Kindred] Gargoyle's Black Blades 530505")]
         ForbiddenLandsFieldBlackBladeKindredGargoylesBlackBlades = 530505,
 
-        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Field - Borealis, the Freezing Fog] Dragon Heart 530510")]
+        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Field - Borealis the Freezing Fog] Dragon Heart 530510")]
         MountaintopsOfTheGiantsFieldBorealisTheFreezingFogDragonHeart = 530510,
 
         [AnnotationAttribute(Name = "[Mountaintops of the Giants - Evergaol - Roundtable Knight Vyke] Vyke's Dragonbolt 530515")]
@@ -510,7 +510,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Teardrop Scarab - Mistwood] Ash of War: Ground Slam 540116")]
         TeardropScarabMistwoodAshOfWarGroundSlam = 540116,
 
-        [AnnotationAttribute(Name = "[Teardrop Scarab - Third Chuch of Marika] Ash of War: Sacred Blade 540118")]
+        [AnnotationAttribute(Name = "[Teardrop Scarab - Third Church of Marika] Ash of War: Sacred Blade 540118")]
         TeardropScarabThirdChuchOfMarikaAshOfWarSacredBlade = 540118,
 
         [AnnotationAttribute(Name = "[Teardrop Scarab - Limgrave Coast] Ash of War: Stamp (Sweep) 540120")]
@@ -942,7 +942,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Liurnia - Artist's Shack] \"Resurrection\" Painting 580010")]
         LiurniaArtistsShackResurrectionPainting = 580010,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] \"Champion's Song\" Painting 580020")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] \"Champion's Song\" Painting 580020")]
         AltusPlateauShadedCastleChampionsSongPainting = 580020,
 
         [AnnotationAttribute(Name = "[Consecrated Snowfield - Castle Sol] \"Sorcerer\" Painting 580030")]
@@ -951,7 +951,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Stormveil Castle] \"Prophecy\" Painting 580040")]
         StormveilCastleProphecyPainting = 580040,
 
-        [AnnotationAttribute(Name = "[Leyndell - Fortifed Manor] \"Flightless Bird\" Painting 580050")]
+        [AnnotationAttribute(Name = "[Leyndell - Fortified Manor] \"Flightless Bird\" Painting 580050")]
         LeyndellFortifedManorFlightlessBirdPainting = 580050,
 
         [AnnotationAttribute(Name = "[Caelid - Sellia] \"Redmane\" Painting 580060")]
@@ -1146,13 +1146,13 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Pidia, Carian Servant] Pidia's Bell Bearing 400149")]
         PidiaCarianServantPidiasBellBearing = 400149,
 
-        [AnnotationAttribute(Name = "[Blaidd is the Half-Wolf] Somber Smithing Stone [2] 400150")]
+        [AnnotationAttribute(Name = "[Blaidd the Half-Wolf] Somber Smithing Stone [2] 400150")]
         BlaiddisTheHalfWolfSomberSmithingStone2 = 400150,
 
-        [AnnotationAttribute(Name = "[Blaidd is the Half-Wolf] Royal Greatsword 400158")]
+        [AnnotationAttribute(Name = "[Blaidd the Half-Wolf] Royal Greatsword 400158")]
         BlaiddisTheHalfWolfRoyalGreatsword = 400158,
 
-        [AnnotationAttribute(Name = "[Blaidd is the Half-Wolf] Discarded Palace Key 400159")]
+        [AnnotationAttribute(Name = "[Blaidd the Half-Wolf] Discarded Palace Key 400159")]
         BlaiddisTheHalfWolfDiscardedPalaceKey = 400159,
 
         [AnnotationAttribute(Name = "[Unknown] White Cipher Ring 60280")]
@@ -1233,7 +1233,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Gurranq - 1st Deathroot] Beast Eye 400239")]
         Gurranq1stDeathrootBeastEye = 400239,
 
-        [AnnotationAttribute(Name = "[Gurranq - 9th Deathroot] Dragon Smithing Stone 400230")]
+        [AnnotationAttribute(Name = "[Gurranq - 9th Deathroot] Ancient Dragon Smithing Stone 400230")]
         Gurranq9thDeathrootDragonSmithingStone = 400230,
 
         [AnnotationAttribute(Name = "[Gurranq - 8th Deathroot] Gurranq's Beast Claw 400231")]
@@ -1918,7 +1918,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[LD - Leyndell] Fan Daggers 11007140")]
         LDLeyndellFanDaggers = 11007140,
 
-        [AnnotationAttribute(Name = "[LD - Leyndell] Marika's Golden Siigl 11007150")]
+        [AnnotationAttribute(Name = "[LD - Leyndell] Gold Firefly 3x 11007150")]
         LDLeyndellMarikasGoldenSiigl = 11007150,
 
         [AnnotationAttribute(Name = "[LD - Leyndell] Holy Grease 11007160")]
@@ -2878,7 +2878,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[LD - Nokron / Siofra] Golden Rune [1] 12027840")]
         LDNokronSiofraGoldenRune1__ = 12027840,
 
-        [AnnotationAttribute(Name = "[LD - Nokron / Siofra] Voidbane Talisman 12027850")]
+        [AnnotationAttribute(Name = "[LD - Nokron / Siofra] Rejuvenating Boluses 12027850")]
         LDNokronSiofraVoidbaneTalisman = 12027850,
 
         [AnnotationAttribute(Name = "[LD - Nokron / Siofra] Rune Arc 12027860")]
@@ -3664,7 +3664,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[LD - Crumbling Farum Azula] Golden Rune [11] 13007420")]
         LDCrumblingFarumAzulaGoldenRune11_ = 13007420,
 
-        [AnnotationAttribute(Name = "[LD - Crumbling Farum Azula] Godskin Ward 13007430")]
+        [AnnotationAttribute(Name = "[LD - Crumbling Farum Azula] Old Fang 5x 13007430")]
         LDCrumblingFarumAzulaGodskinWard = 13007430,
 
         [AnnotationAttribute(Name = "[LD - Crumbling Farum Azula] Hero's Rune [5] 13007440")]
@@ -4024,7 +4024,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[LD - Academy of Raya Lucaria] Glintstone Scarab 14007910")]
         LDAcademyOfRayaLucariaGlintstoneScarab = 14007910,
 
-        [AnnotationAttribute(Name = "[LD - Academy of Raya Lucaria] Terra Magicus 14007920")]
+        [AnnotationAttribute(Name = "[LD - Academy of Raya Lucaria] Terra Magica 14007920")]
         LDAcademyOfRayaLucariaTerraMagicus = 14007920,
 
         [AnnotationAttribute(Name = "[LD - Academy of Raya Lucaria] Radagon Icon 14007940")]
@@ -4861,7 +4861,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Flame Peak - Giant-Conquering Hero's Grave] Cranial Vessel Candlestand 30177000")]
         FlamePeakGiantConqueringHerosGraveCranialVesselCandlestand = 30177000,
 
-        [AnnotationAttribute(Name = "[Flame Peak - Giant-Conquering Hero's Grave] [Incantation] Flame 30177010")]
+        [AnnotationAttribute(Name = "[Flame Peak - Giant-Conquering Hero's Grave] [Incantation] Flame, Protect Me 30177010")]
         FlamePeakGiantConqueringHerosGraveIncantationFlame = 30177010,
 
         [AnnotationAttribute(Name = "[Flame Peak - Giant-Conquering Hero's Grave] Lightning Bastard Sword 30177020")]
@@ -5344,31 +5344,31 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Caelid - Gaol Cave] Rune Arc 31217400")]
         CaelidGaolCaveRuneArc = 31217400,
 
-        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller's Cave] White Reed Armor 31227000")]
+        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller Cave] White Reed Armor 31227000")]
         MountaintopsOfTheGiantsSpiritcallersCaveWhiteReedArmor = 31227000,
 
-        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller's Cave] Golden Rune [6] 31227010")]
+        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller Cave] Golden Rune [6] 31227010")]
         MountaintopsOfTheGiantsSpiritcallersCaveGoldenRune6 = 31227010,
 
-        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller's Cave] Golden Rune [12] 31227020")]
+        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller Cave] Golden Rune [12] 31227020")]
         MountaintopsOfTheGiantsSpiritcallersCaveGoldenRune12 = 31227020,
 
-        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller's Cave] Freezing Grease 31227030")]
+        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller Cave] Freezing Grease 31227030")]
         MountaintopsOfTheGiantsSpiritcallersCaveFreezingGrease = 31227030,
 
-        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller's Cave] Golden Rune [10] 31227040")]
+        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller Cave] Golden Rune [10] 31227040")]
         MountaintopsOfTheGiantsSpiritcallersCaveGoldenRune10 = 31227040,
 
-        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller's Cave] Hero's Rune [1] 31227050")]
+        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller Cave] Hero's Rune [1] 31227050")]
         MountaintopsOfTheGiantsSpiritcallersCaveHerosRune1 = 31227050,
 
-        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller's Cave] Rune Arc 31227060")]
+        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller Cave] Rune Arc 31227060")]
         MountaintopsOfTheGiantsSpiritcallersCaveRuneArc = 31227060,
 
-        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller's Cave] Invigorating White Cured Meat 31227070")]
+        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller Cave] Invigorating White Cured Meat 31227070")]
         MountaintopsOfTheGiantsSpiritcallersCaveInvigoratingWhiteCuredMeat = 31227070,
 
-        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller's Cave] Arteria Leaf 31227080")]
+        [AnnotationAttribute(Name = "[Mountaintops of the Giants - Spiritcaller Cave] Arteria Leaf 31227080")]
         MountaintopsOfTheGiantsSpiritcallersCaveArteriaLeaf = 31227080,
 
         [AnnotationAttribute(Name = "[Weeping Peninsula - Morne Tunnel] Golden Rune [2] 32007000")]
@@ -5407,28 +5407,28 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Limgrave - Limgrave Tunnels] Glintstone Scrap 32017040")]
         LimgraveLimgraveTunnelsGlintstoneScrap = 32017040,
 
-        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel Somber Smithing Stone [2] 32027000")]
+        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel] Somber Smithing Stone [2] 32027000")]
         LiurniaRayaLucariaCrystalTunnelSomberSmithingStone2 = 32027000,
 
-        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel Somber Smithing Stone [3] 32027010")]
+        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel] Somber Smithing Stone [3] 32027010")]
         LiurniaRayaLucariaCrystalTunnelSomberSmithingStone3 = 32027010,
 
-        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel Golden Rune [3] 32027020")]
+        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel] Golden Rune [3] 32027020")]
         LiurniaRayaLucariaCrystalTunnelGoldenRune3 = 32027020,
 
-        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel Smithing Stone [3] 32027030")]
+        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel] Smithing Stone [3] 32027030")]
         LiurniaRayaLucariaCrystalTunnelSmithingStone3 = 32027030,
 
-        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel Somber Smithing Stone [3] 32027040")]
+        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel] Somber Smithing Stone [3] 32027040")]
         LiurniaRayaLucariaCrystalTunnelSomberSmithingStone3_ = 32027040,
 
-        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel Smithing Stone [1] 32027060")]
+        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel] Smithing Stone [1] 32027060")]
         LiurniaRayaLucariaCrystalTunnelSmithingStone1 = 32027060,
 
-        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel [Sorcery] Shatter Earth 32027070")]
+        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel] [Sorcery] Shatter Earth 32027070")]
         LiurniaRayaLucariaCrystalTunnelSorceryShatterEarth = 32027070,
 
-        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel Crystal Knife 32027900")]
+        [AnnotationAttribute(Name = "[Liurnia - Raya Lucaria Crystal Tunnel] Crystal Knife 32027900")]
         LiurniaRayaLucariaCrystalTunnelCrystalKnife = 32027900,
 
         [AnnotationAttribute(Name = "[Altus Plateau - Old Altus Tunnel] Golden Rune [6] 32047000")]
@@ -5479,7 +5479,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Caelid - Gael Tunnel] Cross-Naginata 32077020")]
         CaelidGaelTunnelCrossNaginata = 32077020,
 
-        [AnnotationAttribute(Name = "[Caelid - Gael Tunnel] Dragonbane Talisman 32077030")]
+        [AnnotationAttribute(Name = "[Caelid - Gael Tunnel] Gold-Pickled Fowl Foot 32077030")]
         CaelidGaelTunnelDragonbaneTalisman = 32077030,
 
         [AnnotationAttribute(Name = "[Caelid - Gael Tunnel] Large Glintstone Scrap 32077060")]
@@ -6037,7 +6037,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Stormhill - Stormhill Shack] Golden Seed 1041387100")]
         StormhillStormhillShackGoldenSeed = 1041387100,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Golden Seed 1044327020")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Golden Seed 1044327020")]
         WeepingPeninsulaCastleMorneApproachGoldenSeed = 1044327020,
 
         [AnnotationAttribute(Name = "[Limgrave - Fort Haight] Golden Seed 1046367100")]
@@ -6271,7 +6271,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Stormhill - Northeast Cliffside] Lance Talisman 1043407010")]
         StormhillNortheastCliffsideLanceTalisman = 1043407010,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Map: Weeping Peninsula 62011")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Map: Weeping Peninsula 62011")]
         WeepingPeninsulaCastleMorneApproachMapWeepingPeninsula = 62011,
 
         [AnnotationAttribute(Name = "[Weeping Peninsula - Bridge of Sacrifice] Stonesword Key 1044347000")]
@@ -6583,10 +6583,10 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Weeping Peninsula - Tombsward Ruins] Gilded Iron Shield 1042347030")]
         WeepingPeninsulaTombswardRuinsGildedIronShield = 1042347030,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Yellow Ember 1043327000")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Yellow Ember 1043327000")]
         WeepingPeninsulaCastleMorneApproachYellowEmber = 1043327000,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Sliver of Meat 1043327010")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Sliver of Meat 1043327010")]
         WeepingPeninsulaCastleMorneApproachSliverOfMeat = 1043327010,
 
         [AnnotationAttribute(Name = "[Weeping Peninsula - Minor Erdtree] Golden Rune [2] 1043337000")]
@@ -6613,31 +6613,31 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Weeping Peninsula - Church of Pilgrimage] Demi-Human Queen's Staff 1043347400")]
         WeepingPeninsulaChurchOfPilgrimageDemiHumanQueensStaff = 1043347400,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Golden Rune [4] 1044317010")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Golden Rune [4] 1044317010")]
         WeepingPeninsulaCastleMorneApproachGoldenRune4 = 1044317010,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Arteria Leaf 1044317020")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Arteria Leaf 1044317020")]
         WeepingPeninsulaCastleMorneApproachArteriaLeaf = 1044317020,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Somber Smithing Stone [2] 1044317030")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Somber Smithing Stone [2] 1044317030")]
         WeepingPeninsulaCastleMorneApproachSomberSmithingStone2 = 1044317030,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Smithing Stone [1] 1044327010")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Smithing Stone [1] 1044327010")]
         WeepingPeninsulaCastleMorneApproachSmithingStone1 = 1044327010,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Warming Stone 1044327030")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Warming Stone 1044327030")]
         WeepingPeninsulaCastleMorneApproachWarmingStone = 1044327030,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Great Turtle Shell 1044327040")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Great Turtle Shell 1044327040")]
         WeepingPeninsulaCastleMorneApproachGreatTurtleShell = 1044327040,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Sacrificial Axe 1044327400")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Sacrificial Axe 1044327400")]
         WeepingPeninsulaCastleMorneApproachSacrificialAxe = 1044327400,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Approach] Ash of War: Barricade Shield 1044327410")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Castle Morne Rampart] Ash of War: Barricade Shield 1044327410")]
         WeepingPeninsulaCastleMorneApproachAshOfWarBarricadeShield = 1044327410,
 
-        [AnnotationAttribute(Name = "[Weeping Peninsula - Ailing Village Outskirts] Crest Wooden Shield 1044337000")]
+        [AnnotationAttribute(Name = "[Weeping Peninsula - Ailing Village Outskirts] Flame Crest Wooden Shield 1044337000")]
         WeepingPeninsulaAilingVillageOutskirtsCrestWoodenShield = 1044337000,
 
         [AnnotationAttribute(Name = "[Weeping Peninsula - Ailing Village Outskirts] Rainbow Stone 1044337020")]
@@ -7984,7 +7984,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Liurnia of the Lakes - Laskyar Ruins] Sacrificial Twig 1038417010")]
         LiurniaOfTheLakesLaskyarRuinsSacrificialTwig = 1038417010,
 
-        [AnnotationAttribute(Name = "[Liurnia of the Lakes - Laskyar Ruins] Gravitas 1038417100")]
+        [AnnotationAttribute(Name = "[Liurnia of the Lakes - Laskyar Ruins] Unknown Gem 1007 1038417100")]
         LiurniaOfTheLakesLaskyarRuinsGravitas = 1038417100,
 
         [AnnotationAttribute(Name = "[Liurnia of the Lakes - Cuckoo's Evergaol] Dragonscale Blade 1033457100")]
@@ -8587,91 +8587,91 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Altus Plateau - Mirage Rise] Crepus's Vial 1039537700")]
         AltusPlateauMirageRiseCrepussVial = 1039537700,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Rot Grease 1039570000")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Rot Grease 1039570000")]
         AltusPlateauShadedCastleRotGrease = 1039570000,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Golden Rune [3] 1039547010")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Golden Rune [3] 1039547010")]
         AltusPlateauShadedCastleGoldenRune3 = 1039547010,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Smithing Stone [5] 1039547020")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Smithing Stone [5] 1039547020")]
         AltusPlateauShadedCastleSmithingStone5 = 1039547020,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Poisonbloom 1039547030")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Poisonbloom 1039547030")]
         AltusPlateauShadedCastlePoisonbloom = 1039547030,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Perfume Bottle 66770")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Perfume Bottle 66770")]
         AltusPlateauShadedCastlePerfumeBottle = 66770,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Poisonbone Dart 1039547050")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Poisonbone Dart 1039547050")]
         AltusPlateauShadedCastlePoisonboneDart = 1039547050,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Golden Rune [6] 1039547060")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Golden Rune [6] 1039547060")]
         AltusPlateauShadedCastleGoldenRune6 = 1039547060,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Smithing Stone [4] 1039547070")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Smithing Stone [4] 1039547070")]
         AltusPlateauShadedCastleSmithingStone4 = 1039547070,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Somber Smithing Stone [5] 1039547080")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Somber Smithing Stone [5] 1039547080")]
         AltusPlateauShadedCastleSomberSmithingStone5 = 1039547080,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Smithing Stone [5] 1039547090")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Smithing Stone [5] 1039547090")]
         AltusPlateauShadedCastleSmithingStone5_ = 1039547090,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Drawstring Fire Grease 1039547100")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Drawstring Fire Grease 1039547100")]
         AltusPlateauShadedCastleDrawstringFireGrease = 1039547100,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Golden Rune [6] 1039547110")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Golden Rune [6] 1039547110")]
         AltusPlateauShadedCastleGoldenRune6_ = 1039547110,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Beast Blood 1039547120")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Beast Blood 1039547120")]
         AltusPlateauShadedCastleBeastBlood = 1039547120,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Neutralizing Boluses 1039547130")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Neutralizing Boluses 1039547130")]
         AltusPlateauShadedCastleNeutralizingBoluses = 1039547130,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Glass Shard 1039547140")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Glass Shard 1039547140")]
         AltusPlateauShadedCastleGlassShard = 1039547140,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Stonesword Key 1039547150")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Stonesword Key 1039547150")]
         AltusPlateauShadedCastleStoneswordKey = 1039547150,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Golden Rune [6] 1039547160")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Golden Rune [6] 1039547160")]
         AltusPlateauShadedCastleGoldenRune6__ = 1039547160,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Poison Grease 1039547170")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Poison Grease 1039547170")]
         AltusPlateauShadedCastlePoisonGrease = 1039547170,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Hefty Beast Bone 1039547180")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Hefty Beast Bone 1039547180")]
         AltusPlateauShadedCastleHeftyBeastBone = 1039547180,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Perfumer's Cookbook [2] 67850")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Perfumer's Cookbook [2] 67850")]
         AltusPlateauShadedCastlePerfumersCookbook2 = 67850,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Smithing Stone [5] 1039547200")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Smithing Stone [5] 1039547200")]
         AltusPlateauShadedCastleSmithingStone5__ = 1039547200,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Gold Firefly 1039547210")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Gold Firefly 1039547210")]
         AltusPlateauShadedCastleGoldFirefly = 1039547210,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Glass Shard 1039547220")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Glass Shard 1039547220")]
         AltusPlateauShadedCastleGlassShard_ = 1039547220,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Smithing Stone [5] 1039547230")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Smithing Stone [5] 1039547230")]
         AltusPlateauShadedCastleSmithingStone5___ = 1039547230,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Smithing Stone [5] 1039547240")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Smithing Stone [5] 1039547240")]
         AltusPlateauShadedCastleSmithingStone5____ = 1039547240,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Golden Rune [4] 1039547250")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Golden Rune [4] 1039547250")]
         AltusPlateauShadedCastleGoldenRune4 = 1039547250,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Smithing Stone [4] 1039547260")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Smithing Stone [4] 1039547260")]
         AltusPlateauShadedCastleSmithingStone4_ = 1039547260,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Valkyrie's Prosthesis 1039547300")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Valkyrie's Prosthesis 1039547300")]
         AltusPlateauShadedCastleValkyriesProsthesis = 1039547300,
 
-        [AnnotationAttribute(Name = "[Altus Plateau - Shaded Castle] Starlight Shards 1039547350")]
+        [AnnotationAttribute(Name = "[Altus Plateau - The Shaded Castle] Starlight Shards 1039547350")]
         AltusPlateauShadedCastleStarlightShards = 1039547350,
 
         [AnnotationAttribute(Name = "[Altus Plateau - Southwest of Tree Sentinel Duo] Gravity Stone Fan 1040507000")]
@@ -9647,68 +9647,8 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "[Rauh Base - Ravine North] Sword of Light 2045477500")]
         RauhBaseRavineNorthSwordofLight = 2045477500,
 
-        [AnnotationAttribute(Name = "[Rauh Base - Ravine North] Sword of Light +1 2045477510")]
-        RauhBaseRavineNorthSwordofLight1 = 2045477510,
-
-        [AnnotationAttribute(Name = "[Rauh Base - Ravine North] Sword of Light +2 2045477520")]
-        RauhBaseRavineNorthSwordofLight2 = 2045477520,
-
-        [AnnotationAttribute(Name = "[Rauh Base - Ravine North] Sword of Light +3 2045477530")]
-        RauhBaseRavineNorthSwordofLight3 = 2045477530,
-
-        [AnnotationAttribute(Name = "[Rauh Base - Ravine North] Sword of Light +4 2045477540")]
-        RauhBaseRavineNorthSwordofLight4 = 2045477540,
-
-        [AnnotationAttribute(Name = "[Rauh Base - Ravine North] Sword of Light +5 2045477550")]
-        RauhBaseRavineNorthSwordofLight5 = 2045477550,
-
-        [AnnotationAttribute(Name = "[Rauh Base - Ravine North] Sword of Light +6 2045477560")]
-        RauhBaseRavineNorthSwordofLight6 = 2045477560,
-
-        [AnnotationAttribute(Name = "[Rauh Base - Ravine North] Sword of Light +7 2045477570")]
-        RauhBaseRavineNorthSwordofLight7 = 2045477570,
-
-        [AnnotationAttribute(Name = "[Rauh Base - Ravine North] Sword of Light +8 2045477580")]
-        RauhBaseRavineNorthSwordofLight8 = 2045477580,
-
-        [AnnotationAttribute(Name = "[Rauh Base - Ravine North] Sword of Light +9 2045477590")]
-        RauhBaseRavineNorthSwordofLight9 = 2045477590,
-
-        [AnnotationAttribute(Name = "[Rauh Base - Ravine North] Sword of Light +10 2045477600")]
-        RauhBaseRavineNorthSwordofLight10 = 2045477600,
-
         [AnnotationAttribute(Name = "[Scadu Altus - Castle Watering Hole Southeast] Sword of Darkness 2045477700")]
         ScaduAltusCastleWateringHoleSoutheastSwordofDarkness = 2045477700,
-
-        [AnnotationAttribute(Name = "[Scadu Altus - Castle Watering Hole Southeast] Sword of Darkness +1 2045477710")]
-        ScaduAltusCastleWateringHoleSoutheastSwordofDarkness1 = 2045477710,
-
-        [AnnotationAttribute(Name = "[Scadu Altus - Castle Watering Hole Southeast] Sword of Darkness +2 2045477720")]
-        ScaduAltusCastleWateringHoleSoutheastSwordofDarkness2 = 2045477720,
-
-        [AnnotationAttribute(Name = "[Scadu Altus - Castle Watering Hole Southeast] Sword of Darkness +3 2045477730")]
-        ScaduAltusCastleWateringHoleSoutheastSwordofDarkness3 = 2045477730,
-
-        [AnnotationAttribute(Name = "[Scadu Altus - Castle Watering Hole Southeast] Sword of Darkness +4 2045477740")]
-        ScaduAltusCastleWateringHoleSoutheastSwordofDarkness4 = 2045477740,
-
-        [AnnotationAttribute(Name = "[Scadu Altus - Castle Watering Hole Southeast] Sword of Darkness +5 2045477750")]
-        ScaduAltusCastleWateringHoleSoutheastSwordofDarkness5 = 2045477750,
-
-        [AnnotationAttribute(Name = "[Scadu Altus - Castle Watering Hole Southeast] Sword of Darkness +6 2045477760")]
-        ScaduAltusCastleWateringHoleSoutheastSwordofDarkness6 = 2045477760,
-
-        [AnnotationAttribute(Name = "[Scadu Altus - Castle Watering Hole Southeast] Sword of Darkness +7 2045477770")]
-        ScaduAltusCastleWateringHoleSoutheastSwordofDarkness7 = 2045477770,
-
-        [AnnotationAttribute(Name = "[Scadu Altus - Castle Watering Hole Southeast] Sword of Darkness +8 2045477780")]
-        ScaduAltusCastleWateringHoleSoutheastSwordofDarkness8 = 2045477780,
-
-        [AnnotationAttribute(Name = "[Scadu Altus - Castle Watering Hole Southeast] Sword of Darkness +9 2045477790")]
-        ScaduAltusCastleWateringHoleSoutheastSwordofDarkness9 = 2045477790,
-
-        [AnnotationAttribute(Name = "[Scadu Altus - Castle Watering Hole Southeast] Sword of Darkness +10 2045477800")]
-        ScaduAltusCastleWateringHoleSoutheastSwordofDarkness10 = 2045477800,
 
         [AnnotationAttribute(Name = "[Gravesite Plain - Blackgaol Knight] Greatsword of Solitude, Solitude Set 530820")]
         GravesitePlainBlackgaolKnightGreatswordofSolitude = 530820,

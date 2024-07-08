@@ -33,7 +33,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Godfrey, First Elden Lord - Leyndell", Description = "Leyndell")]
         GodfreyFirstEldenLordLeyndell = 11000850,
 
-        [AnnotationAttribute(Name = "Hoarah Loux - Leyndell", Description = "Leyndell")]
+        [AnnotationAttribute(Name = "Hoarah Loux, Warrior - Leyndell", Description = "Leyndell")]
         HoarahLouxLeyndell = 11050800,
 
         [AnnotationAttribute(Name = "Sir Gideon Ofnir, the All-Knowing - Leyndell", Description = "Leyndell")]
@@ -54,7 +54,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Mimic Tear - Siofra River", Description = "Siofra River")]
         MimicTearSiofraRiver = 12020850,
 
-        [AnnotationAttribute(Name = "Crucible Knight Sirulia - Deeproot Depths", Description = "Deeproot Depths")]
+        [AnnotationAttribute(Name = "Crucible Knight Siluria - Deeproot Depths", Description = "Deeproot Depths")]
         CrucibleKnightSiruliaDeeprootDepths = 12030390,
 
         [AnnotationAttribute(Name = "Fia's Champion - Deeproot Depths", Description = "Deeproot Depths")]
@@ -75,7 +75,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Regal Ancestor Spirit - Nokron, Eternal City", Description = "Nokron, Eternal City")]
         RegalAncestorSpiritNokronEternalCity = 12090800,
 
-        [AnnotationAttribute(Name = "Maliketh, The Black Blade - Crumbling Farum Azula", Description = "Crumbling Farum Azula")]
+        [AnnotationAttribute(Name = "Maliketh, the Black Blade - Crumbling Farum Azula", Description = "Crumbling Farum Azula")]
         MalikethTheBlackBladeCrumblingFarumAzula = 13000800,
 
         [AnnotationAttribute(Name = "Dragonlord Placidusax - Crumbling Farum Azula", Description = "Crumbling Farum Azula")]
@@ -114,7 +114,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Elden Beast - Elden Throne", Description = "Leyndell")]
         EldenBeastEldenThrone = 19000800,
 
-        [AnnotationAttribute(Name = "Mohg, The Omen - Subterranean Shunning-Grounds (Leyndell)", Description = "Subterranean Shunning-Grounds")]
+        [AnnotationAttribute(Name = "Mohg, the Omen - Subterranean Shunning-Grounds (Leyndell)", Description = "Subterranean Shunning-Grounds")]
         MohgTheOmenSubterraneanShunningGroundsLeyndell = 35000800,
 
         [AnnotationAttribute(Name = "Esgar, Priest of Blood - Subterranean Shunning-Grounds (Leyndell)", Description = "Subterranean Shunning-Grounds")]
@@ -126,7 +126,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Cemetery Shade - Tombsward Catacombs (Limgrave)", Description = "Limgrave")]
         CemeteryShadeTombswardCatacombsLimgrave = 30000800,
 
-        [AnnotationAttribute(Name = "Erdtree Burial Watchdog - Impaler's Catacombs (Weeping Penisula)", Description = "Weeping Peninsula")]
+        [AnnotationAttribute(Name = "Erdtree Burial Watchdog - Impaler's Catacombs (Weeping Peninsula)", Description = "Weeping Peninsula")]
         ErdtreeBurialWatchdogImpalersCatacombsWeepingPenisula = 30010800,
 
         [AnnotationAttribute(Name = "Erdtree Burial Watchdog - Stormfoot Catacombs (Limgrave)", Description = "Limgrave")]
@@ -144,7 +144,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Black Knife Assassin - Black Knife Catacombs (Liurnia)", Description = "Liurnia of the Lakes")]
         BlackKnifeAssassinBlackKnifeCatacombsLiurnia = 30050850,
 
-        [AnnotationAttribute(Name = "Spirit-Caller Snail - Road's End Catacombs (Liurnia)", Description = "Liurnia of the Lakes")]
+        [AnnotationAttribute(Name = "Spiritcaller Snail - Road's End Catacombs (Liurnia)", Description = "Liurnia of the Lakes")]
         SpiritCallerSnailRoadsEndCatacombsLiurnia = 30030800,
 
         [AnnotationAttribute(Name = "Erdtree Burial Watchdog - Cliffbottom Catacombs (Liurnia)", Description = "Liurnia of the Lakes")]
@@ -159,7 +159,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Crucible Knight Ordovis - Auriza Hero's Grave (Altus Plateau)", Description = "Altus Plateau")]
         CrucibleKnightOrdovisAurizaHerosGraveAltusPlateau = 30100800,
 
-        [AnnotationAttribute(Name = "Crucible Knight (Tree Spear) - Auriza Hero's Grave (Altus Plateau)", Description = "Altus Plateau")]
+        [AnnotationAttribute(Name = "Crucible Knight (Treespear) - Auriza Hero's Grave (Altus Plateau)", Description = "Altus Plateau")]
         CrucibleKnightTreeSpearAurizaHerosGraveAltusPlateau = 30100800,
 
         [AnnotationAttribute(Name = "Misbegotten Warrior - Unsightly Catacombs (Mt. Gelmir)", Description = "Mt. Gelmir")]
@@ -186,7 +186,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Ancient Hero of Zamor - Giant-Conquering Hero's Grave (Mountaintops)", Description = "Mountaintops of the Giants")]
         AncientHeroOfZamorGiantConqueringHerosGraveMountaintops = 30170800,
 
-        [AnnotationAttribute(Name = "Ulcerated Tree Sprit - Giants' Mountaintop Catacombs (Mountaintops)", Description = "Mountaintops of the Giants")]
+        [AnnotationAttribute(Name = "Ulcerated Tree Spirit - Giants' Mountaintop Catacombs (Mountaintops)", Description = "Mountaintops of the Giants")]
         UlceratedTreeSpritGiantsMountaintopCatacombsMountaintops = 30180800,
 
         [AnnotationAttribute(Name = "Putrid Grave Warden Duelist - Consecrated Snowfield Catacombs (Snowfield)", Description = "Consecrated Snowfield")]
@@ -198,7 +198,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Patches - Murkwater Cave (Limgrave)", Description = "Limgrave")]
         PatchesMurkwaterCaveLimgrave = 31000800,
 
-        [AnnotationAttribute(Name = "Runebear - Earthbore Cave (Weeping Penisula)", Description = "Weeping Peninsula")]
+        [AnnotationAttribute(Name = "Runebear - Earthbore Cave (Weeping Peninsula)", Description = "Weeping Peninsula")]
         RunebearEarthboreCaveWeepingPenisula = 31010800,
 
         [AnnotationAttribute(Name = "Miranda the Blighted Bloom - Tombsward Cave (Limgrave)", Description = "Limgrave")]
@@ -219,7 +219,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Bloodhound Knight - Lakeside Crystal Cave (Liurnia)", Description = "Liurnia of the Lakes")]
         BloodhoundKnightLakesideCrystalCaveLiurnia = 31050800,
 
-        [AnnotationAttribute(Name = "Crystalians - Academy Crystal Cave (Liurnia)", Description = "Liurnia of the Lakes")]
+        [AnnotationAttribute(Name = "Crystalian Duo - Academy Crystal Cave (Liurnia)", Description = "Liurnia of the Lakes")]
         CrystaliansAcademyCrystalCaveLiurnia = 31060800,
 
         [AnnotationAttribute(Name = "Kindred of Rot - Seethewater Cave (Mt. Gelmir)", Description = "Mt. Gelmir")]
@@ -252,10 +252,10 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Misbegotten Crusader - Cave of the Forlorn (Mountaintops)", Description = "Mountaintops of the Giants")]
         MisbegottenCrusaderCaveOfTheForlornMountaintops = 31120800,
 
-        [AnnotationAttribute(Name = "Spirit-Caller Snail - Spiritcaller's Cave (Mountaintops)", Description = "Mountaintops of the Giants")]
+        [AnnotationAttribute(Name = "Spiritcaller Snail - Spiritcaller Cave (Mountaintops)", Description = "Mountaintops of the Giants")]
         SpiritCallerSnailSpiritcallersCaveMountaintops = 31220800,
 
-        [AnnotationAttribute(Name = "Scaly Misbegotten - Morne Tunnel (Weeping Penisula)", Description = "Weeping Peninsula")]
+        [AnnotationAttribute(Name = "Scaly Misbegotten - Morne Tunnel (Weeping Peninsula)", Description = "Weeping Peninsula")]
         ScalyMisbegottenMorneTunnelWeepingPenisula = 32000800,
 
         [AnnotationAttribute(Name = "Stonedigger Troll - Limgrave Tunnels (Limgrave)", Description = "Limgrave")]
@@ -270,10 +270,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Onyx Lord - Divine Tower of West Altus (Altus Plateau)", Description = "Altus Plateau")]
         OnyxLordDivineTowerOfWestAltusAltusPlateau = 34120800,
 
-        [AnnotationAttribute(Name = "Crystalian (Ringblade) - Altus Tunnel (Altus Plateau)", Description = "Altus Plateau")]
-        CrystalianRingbladeAltusTunnelAltusPlateau = 32050800,
-
-        [AnnotationAttribute(Name = "Crystalian (Spear) - Altus Tunnel (Altus Plateau)", Description = "Altus Plateau")]
+        [AnnotationAttribute(Name = "Crystalian Duo - Altus Tunnel (Altus Plateau)", Description = "Altus Plateau")]
         CrystalianSpearAltusTunnelAltusPlateau = 32050800,
 
         [AnnotationAttribute(Name = "Magma Wyrm - Gael Tunnel (Caelid)", Description = "Caelid")]
@@ -300,28 +297,28 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Deathbird - Stormgate (Limgrave)", Description = "Limgrave")]
         DeathRiteBirdStormgateLimgrave = 1042380800,
 
-        [AnnotationAttribute(Name = "Ball-Bearing Hunter - Warmaster's Shack (Limgrave)", Description = "Limgrave")]
+        [AnnotationAttribute(Name = "Bell Bearing Hunter - Warmaster's Shack (Limgrave)", Description = "Limgrave")]
         BallBearingHunterWarmastersShackLimgrave = 1042380850,
 
-        [AnnotationAttribute(Name = "Ancient Hero of Zamor - Weeping Evergaol (Weeping Penisula)", Description = "Weeping Peninsula")]
+        [AnnotationAttribute(Name = "Ancient Hero of Zamor - Weeping Evergaol (Weeping Peninsula)", Description = "Weeping Peninsula")]
         AncientHeroOfZamorWeepingEvergaolWeepingPenisula = 1042330800,
 
-        [AnnotationAttribute(Name = "Bloodhound Knight Darriwill - Forlorn Hound Evergaol (Limgrave)", Description = "Limgrave")]
+        [AnnotationAttribute(Name = "Bloodhound Knight Darriwil - Forlorn Hound Evergaol (Limgrave)", Description = "Limgrave")]
         BloodhoundKnightDarriwillForlornHoundEvergaolLimgrave = 1044350800,
 
         [AnnotationAttribute(Name = "Crucible Knight - Stormhill Evergaol (Limgrave)", Description = "Limgrave")]
         CrucibleKnightStormhillEvergaolLimgrave = 1042370800,
 
-        [AnnotationAttribute(Name = "Erdtree Avatar - Minor Erdtree (Weeping Penisula)", Description = "Weeping Peninsula")]
+        [AnnotationAttribute(Name = "Erdtree Avatar - Minor Erdtree (Weeping Peninsula)", Description = "Weeping Peninsula")]
         ErdtreeAvatarMinorErdtreeWeepingPenisula = 1043330800,
 
-        [AnnotationAttribute(Name = "Night's Cavalry - Castle Morne Approach (Weeping Penisula)", Description = "Weeping Peninsula")]
+        [AnnotationAttribute(Name = "Night's Cavalry - Castle Morne Rampart (Weeping Peninsula)", Description = "Weeping Peninsula")]
         NightsCavalryCastleMorneApproachWeepingPenisula = 1044320850,
 
-        [AnnotationAttribute(Name = "Deathbird - Castle Morne Approach (Weeping Penisula)", Description = "Weeping Peninsula")]
+        [AnnotationAttribute(Name = "Deathbird - Castle Morne Rampart (Weeping Peninsula)", Description = "Weeping Peninsula")]
         DeathRiteBirdCastleMorneApproachWeepingPenisula = 1044320800,
 
-        [AnnotationAttribute(Name = "Leonine Misbegotten - Castle Morne (Weeping Penisula)", Description = "Weeping Peninsula")]
+        [AnnotationAttribute(Name = "Leonine Misbegotten - Castle Morne (Weeping Peninsula)", Description = "Weeping Peninsula")]
         LeonineMisbegottenCastleMorneWeepingPenisula = 1043300800,
 
         [AnnotationAttribute(Name = "Tree Sentinel - Church of Elleh (Limgrave)", Description = "Limgrave")]
@@ -354,10 +351,10 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Erdtree Avatar - Minor Erdtree (Liurnia)", Description = "Liurnia of the Lakes")]
         ErdtreeAvatarMinorErdtreeLiurnia = 1038480800,
 
-        [AnnotationAttribute(Name = "Royal Knight Loretta - Carian Manor (Liurnia)", Description = "Liurnia of the Lakes")]
+        [AnnotationAttribute(Name = "Royal Knight Loretta - Caria Manor (Liurnia)", Description = "Liurnia of the Lakes")]
         RoyalKnightLorettaCarianManorLiurnia = 1035500800,
 
-        [AnnotationAttribute(Name = "Ball-Bearing Hunter - Church of Vows (Liurnia)", Description = "Liurnia of the Lakes")]
+        [AnnotationAttribute(Name = "Bell Bearing Hunter - Church of Vows (Liurnia)", Description = "Liurnia of the Lakes")]
         BallBearingHunterChurchOfVowsLiurnia = 1037460800,
 
         [AnnotationAttribute(Name = "Night's Cavalry - Liurnia Highway Far North (Liurnia)", Description = "Liurnia of the Lakes")]
@@ -369,7 +366,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Deathbird - Laskyar Ruins (Liurnia)", Description = "Liurnia of the Lakes")]
         DeathRiteBirdLaskyarRuinsLiurnia = 1037420800,
 
-        [AnnotationAttribute(Name = "Death Rite Bird - Gate Town Northwest (Liurnia)", Description = "Liurnia of the Lakes")]
+        [AnnotationAttribute(Name = "Death Rite Bird - Gate Town North (Liurnia)", Description = "Liurnia of the Lakes")]
         DeathRiteBirdGateTownNorthwestLiurnia = 1036450800,
 
         [AnnotationAttribute(Name = "Glintstone Dragon Smarag - Meeting Place (Liurnia)", Description = "Liurnia of the Lakes")]
@@ -393,7 +390,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Ancient Dragon Lansseax - Rampartside Path (Altus Plateau)", Description = "Altus Plateau")]
         AncientDragonLansseaxRampartsidePathAltusPlateau = 1041520800,
 
-        [AnnotationAttribute(Name = "Demi-Human Queen - Lux Ruins (Altus Plateau)", Description = "Altus Plateau")]
+        [AnnotationAttribute(Name = "Demi-Human Queen Gilika - Lux Ruins (Altus Plateau)", Description = "Altus Plateau")]
         DemiHumanQueenLuxRuinsAltusPlateau = 1038510800,
 
         [AnnotationAttribute(Name = "Fallingstar Beast - South of Tree Sentinel Duo (Altus Plateau)", Description = "Altus Plateau")]
@@ -408,7 +405,7 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Godskin Apostle - Windmill Heights (Altus Plateau)", Description = "Altus Plateau")]
         GodskinApostleWindmillHeightsAltusPlateau = 1042550800,
 
-        [AnnotationAttribute(Name = "Black Knife Assassin - Sainted Hero's Grave Entrance (Altus Plateau)", Description = "Altus Plateau")]
+        [AnnotationAttribute(Name = "Black Knife Assassin - Sainted Hero's Grave (Entrance) (Altus Plateau)", Description = "Altus Plateau")]
         BlackKnifeAssassinSaintedHerosGraveEntranceAltusPlateau = 1040520800,
 
         [AnnotationAttribute(Name = "Draconic Tree Sentinel - Capital Rampart (Capital Outskirts)", Description = "Capital Outskirts")]
@@ -423,19 +420,19 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Deathbird - Minor Erdtree (Capital Outskirts)", Description = "Capital Outskirts")]
         DeathRiteBirdMinorErdtreeCapitalOutskirts = 1044530800,
 
-        [AnnotationAttribute(Name = "Ball-Bearing Hunter - Hermit Merchant's Shack (Capital Outskirts)", Description = "Capital Outskirts")]
+        [AnnotationAttribute(Name = "Bell Bearing Hunter - Hermit Merchant's Shack (Capital Outskirts)", Description = "Capital Outskirts")]
         BallBearingHunterHermitMerchantsShackCapitalOutskirts = 1043530800,
 
-        [AnnotationAttribute(Name = "Demi-Human Queen - Primeval Sorcerer Azur (Mt. Gelmir)", Description = "Mt. Gelmir")]
+        [AnnotationAttribute(Name = "Demi-Human Queen Maggie - Primeval Sorcerer Azur (Mt. Gelmir)", Description = "Mt. Gelmir")]
         DemiHumanQueenPrimevalSorcererAzurMtGelmir = 1037530800,
 
         [AnnotationAttribute(Name = "Magma Wyrm - Seethewater Terminus (Mt. Gelmir)", Description = "Mt. Gelmir")]
         MagmaWyrmSeethewaterTerminusMtGelmir = 1035530800,
 
-        [AnnotationAttribute(Name = "Full-Grown Fallingstar Beast - Crater (Mt. Gelmir)", Description = "Mt. Gelmir")]
+        [AnnotationAttribute(Name = "Full-Grown Fallingstar Beast - Ninth Mt. Gelmir Campsite (Mt. Gelmir)", Description = "Mt. Gelmir")]
         FullGrownFallingstarBeastCraterMtGelmir = 1036540800,
 
-        [AnnotationAttribute(Name = "Elemer of the Briar - Shaded Castle (Altus Plateau)", Description = "Altus Plateau")]
+        [AnnotationAttribute(Name = "Elemer of the Briar - The Shaded Castle (Altus Plateau)", Description = "Altus Plateau")]
         ElemerOfTheBriarShadedCastleAltusPlateau = 1039540800,
 
         [AnnotationAttribute(Name = "Ulcerated Tree Spirit - Minor Erdtree (Mt. Gelmir)", Description = "Mt. Gelmir")]
@@ -465,13 +462,13 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Starscourge Radahn - Battlefield (Caelid)", Description = "Caelid")]
         StarscourgeRadahnBattlefieldCaelid = 1252380800,
 
-        [AnnotationAttribute(Name = "Nox Priest - West Sellia (Caelid)", Description = "Caelid")]
+        [AnnotationAttribute(Name = "Nox Monk Duo - Chair-Crypt of Sellia (Caelid)", Description = "Caelid")]
         NoxPriestWestSelliaCaelid = 1049390800,
 
-        [AnnotationAttribute(Name = "Bell-Bearing Hunter - Isolated Merchant's Shack (Dragonbarrow)", Description = "Greyoll's Dragonbarrow")]
+        [AnnotationAttribute(Name = "Bell Bearing Hunter - Isolated Merchant's Shack (Dragonbarrow)", Description = "Greyoll's Dragonbarrow")]
         BallBearingHunterIsolatedMerchantsShackDragonbarrow = 1048410800,
 
-        [AnnotationAttribute(Name = "Battlemage Hugues - Sellia Crystal Tunnel Entrance (Caelid)", Description = "Caelid")]
+        [AnnotationAttribute(Name = "Battlemage Hugues - Sellia Evergaol (Caelid)", Description = "Caelid")]
         BattlemageHuguesSelliaCrystalTunnelEntranceCaelid = 1049390850,
 
         [AnnotationAttribute(Name = "Putrid Avatar - Dragonbarrow Fork (Caelid)", Description = "Caelid")]
@@ -489,43 +486,43 @@ namespace SoulMemory.EldenRing
         [AnnotationAttribute(Name = "Night's Cavalry - Forbidden Lands (Mountaintops)", Description = "Mountaintops of the Giants")]
         NightsCavalryForbiddenLandsMountaintops = 1048510800,
 
-        [AnnotationAttribute(Name = "Black Blade Kindred - Before Grand Lift of Rold (Mountaintops)", Description = "Mountaintops of the Giants")]
+        [AnnotationAttribute(Name = "Black Blade Kindred - Grand Lift of Rold (Mountaintops)", Description = "Mountaintops of the Giants")]
         BlackBladeKindredBeforeGrandLiftOfRoldMountaintops = 1049520800,
 
-        [AnnotationAttribute(Name = "Borealis the Freezing Fog - Freezing Fields (Mountaintops)", Description = "Mountaintops of the Giants")]
+        [AnnotationAttribute(Name = "Borealis the Freezing Fog - Freezing Lake (Mountaintops)", Description = "Mountaintops of the Giants")]
         BorealisTheFreezingFogFreezingFieldsMountaintops = 1254560800,
 
         [AnnotationAttribute(Name = "Roundtable Knight Vyke - Lord Contender's Evergaol (Mountaintops)", Description = "Mountaintops of the Giants")]
         RoundtableKnightVykeLordContendersEvergaolMountaintops = 1053560800,
 
-        [AnnotationAttribute(Name = "Fire Giant - Giant's Forge (Mountaintops)", Description = "Mountaintops of the Giants")]
+        [AnnotationAttribute(Name = "Fire Giant - Forge of the Giants (Mountaintops)", Description = "Mountaintops of the Giants")]
         FireGiantGiantsForgeMountaintops = 1052520800,
 
         [AnnotationAttribute(Name = "Erdtree Avatar - Minor Erdtree (Mountaintops)", Description = "Mountaintops of the Giants")]
         ErdtreeAvatarMinorErdtreeMountaintops = 1052560800,
 
-        [AnnotationAttribute(Name = "Death Rite Bird - West of Castle So (Mountaintops)", Description = "Mountaintops of the Giants")]
+        [AnnotationAttribute(Name = "Death Rite Bird - West of Castle Sol (Mountaintops)", Description = "Mountaintops of the Giants")]
         DeathRiteBirdWestOfCastleSoMountaintops = 1050570800,
 
         [AnnotationAttribute(Name = "Putrid Avatar - Minor Erdtree (Snowfield)", Description = "Consecrated Snowfield")]
         PutridAvatarMinorErdtreeSnowfield = 1050570850,
 
-        [AnnotationAttribute(Name = "Commander Niall - Castle Soul (Mountaintops)", Description = "Mountaintops of the Giants")]
+        [AnnotationAttribute(Name = "Commander Niall - Castle Sol (Mountaintops)", Description = "Mountaintops of the Giants")]
         CommanderNiallCastleSoulMountaintops = 1051570800,
 
         [AnnotationAttribute(Name = "Great Wyrm Theodorix - Albinauric Rise (Mountaintops)", Description = "Mountaintops of the Giants")]
         GreatWyrmTheodorixAlbinauricRiseMountaintops = 1050560800,
 
-        [AnnotationAttribute(Name = "Night's Cavalry - Sourthwest (Mountaintops)", Description = "Mountaintops of the Giants")]
+        [AnnotationAttribute(Name = "Night's Cavalry - Forbidden Lands (Mountaintops)", Description = "Mountaintops of the Giants")]
         NightsCavalrySourthwestMountaintops = 1248550800,
 
         [AnnotationAttribute(Name = "Death Rite Bird - Ordina, Liturgical Town (Snowfield)", Description = "Consecrated Snowfield")]
         DeathRiteBirdOrdinaLiturgicalTownSnowfield = 1048570800,
 
-        [AnnotationAttribute(Name = "Pumpkinhead Duo - Caelem Ruins (Caelid)", Description = "Caelid")]
+        [AnnotationAttribute(Name = "Mad Pumpkin Head Duo - Caelem Ruins (Caelid)", Description = "Caelid")]
         PumpkinheadDuoCaelemRuinsCaelid = 1048400800,
 
-        [AnnotationAttribute(Name = "Night's Cavalry - Altus Highway (Altus Plateau)", Description = "Altus Plateau")]
+        [AnnotationAttribute(Name = "Night's Cavalry - Altus Highway Junction (Altus Plateau)", Description = "Altus Plateau")]
         NightsCavalryAltusHighwayAltusPlateau = 1039510800,
 
         [AnnotationAttribute(Name = "Ghostflame Dragon - Gravesite Plain (Northwest)", Description = "Gravesite Plain")]
