@@ -21,49 +21,49 @@ namespace SoulMemory.Sekiro
     [XmlType(Namespace = "Sekiro")]
     public enum Boss
     {
-        [AnnotationAttribute(Name = "Gyoubu Masataka Oniwa")]
+        [AnnotationAttribute(Name = "鬼形部")]
         GyoubuMasatakaOniwa = 9301,
-        
-        [AnnotationAttribute(Name = "Lady Butterfly")]              
+
+        [AnnotationAttribute(Name = "幻影之蝶")]
         LadyButterfly = 9302,
 
-        [AnnotationAttribute(Name = "Genichiro Ashina")]            
+        [AnnotationAttribute(Name = "苇名弦一郎")]
         GenichiroAshina = 9303,
-            
-        [AnnotationAttribute(Name = "Folding Screen Monkeys")]      
+
+        [AnnotationAttribute(Name = "观猴、闻猴、言猴")]
         FoldingScreenMonkeys = 9305,
-        
-        [AnnotationAttribute(Name = "Guardian Ape")]                
+
+        [AnnotationAttribute(Name = "狮子猿")]
         GuardianApe = 9304,
-        
-        [AnnotationAttribute(Name = "Headless Ape")]                
+
+        [AnnotationAttribute(Name = "无首狮子猿")]
         HeadlessApe = 9307,
-        
-        [AnnotationAttribute(Name = "Corrupted Monk (ghost)")]      
+
+        [AnnotationAttribute(Name = "破戒僧 (幻影)")]
         CorruptedMonkGhost = 9306,
 
-        [AnnotationAttribute(Name = "Emma, the Gentle Blade")]      
+        [AnnotationAttribute(Name = "柔剑 永真")]
         EmmaTheGentleBlade = 9315,
 
-        [AnnotationAttribute(Name = "Isshin Ashina")]               
+        [AnnotationAttribute(Name = "苇名一心")]
         IsshinAshina = 9316,
 
-        [AnnotationAttribute(Name = "Great Shinobi Owl")]            
+        [AnnotationAttribute(Name = "巨型忍者 枭")]
         GreatShinobiOwl = 9308,
 
-        [AnnotationAttribute(Name = "True Corrupted Monk")]         
+        [AnnotationAttribute(Name = "破戒僧")]
         TrueCorruptedMonk = 9309,
 
-        [AnnotationAttribute(Name = "Divine Dragon")]               
+        [AnnotationAttribute(Name = "樱龙")]
         DivineDragon = 9310,
 
-        [AnnotationAttribute(Name = "Owl (Father)")]                
+        [AnnotationAttribute(Name = "义父")]
         OwlFather = 9317,
 
-        [AnnotationAttribute(Name = "Demon of Hatred")]             
+        [AnnotationAttribute(Name = "怨恨之鬼")]
         DemonOfHatred = 9313,
 
-        [AnnotationAttribute(Name = "Isshin, the Sword Saint")]     
+        [AnnotationAttribute(Name = "剑圣 苇名一心")]
         IsshinTheSwordSaint = 9312,
     }
 }
