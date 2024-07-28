@@ -44,7 +44,7 @@
             Width="120"
             Margin="5"
             HorizontalAlignment="Left"
-            materialDesign:HintAssist.Hint="Flag">
+            materialDesign:HintAssist.Hint="事件标志ID">
             <TextBox.Text>
                 <Binding Path="FlagDescription.Flag">
                     <Binding.ValidationRules>
@@ -58,8 +58,8 @@
             Width="285"
             Margin="5"
             HorizontalAlignment="Left"
-            ToolTip="Optional, helps you remember what a flag is for"
-            materialDesign:HintAssist.Hint="Description"
+            ToolTip="可选填，帮助你记忆这个事件标志"
+            materialDesign:HintAssist.Hint="描述"
             Text="{Binding FlagDescription.Description}"/>
 
     </StackPanel>

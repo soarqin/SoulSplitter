@@ -20,16 +20,16 @@ namespace SoulSplitter.UI.Generic
 {
     public enum TimingType
     {
-        [Annotation(Name = "immediate")]
+        [Annotation(Name = "立即触发")]
         Immediate,
         
-        [Annotation(Name = "on loading")]
+        [Annotation(Name = "游戏加载")]
         OnLoading,
 
-        [Annotation(Name = "on blackscreen")]
+        [Annotation(Name = "过场黑屏")]
         OnBlackscreen,
 
-        [Annotation(Name = "on warp")]
+        [Annotation(Name = "传送")]
         OnWarp,
     }
 }

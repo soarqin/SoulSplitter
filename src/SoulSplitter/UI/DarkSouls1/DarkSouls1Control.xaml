@@ -95,14 +95,14 @@
         <CheckBox 
             Grid.Row="{StaticResource StartAutomaticallyRow}"
             Margin="5" 
-            Content="Start automatically" 
+            Content="自动开始" 
             IsChecked="{Binding StartAutomatically}"/>
 
         <!-- row ============================================================================================================================================================================================== -->
         <CheckBox 
             Grid.Row="{StaticResource ResetIndicesRow}"
             Margin="5" 
-            Content="Reset inventory indices" 
+            Content="重置物品栏索引" 
             IsChecked="{Binding ResetInventoryIndices}"
             
             />
@@ -110,11 +110,11 @@
         <!-- row ============================================================================================================================================================================================== -->
         <StackPanel Orientation="Vertical" Grid.Row="{StaticResource DropModRow}">
             <Separator/>
-            <Label Content="Dropmod settings"/>
+            <Label Content="掉率Mod设置"/>
             <RadioButton 
                 Margin="5"                
                 IsChecked="{Binding DropModType, Mode=TwoWay, Converter={StaticResource ResourceKey=DropModTypeConverter}, ConverterParameter={x:Static darkSouls11:DropModType.None}}"
-                GroupName="DropModRadioButtonGroup">None</RadioButton>
+                GroupName="DropModRadioButtonGroup">无</RadioButton>
             
             <RadioButton 
                 Margin="5"
@@ -132,7 +132,7 @@
         <!-- row ============================================================================================================================================================================================== -->
         <Label 
             Grid.Row="{StaticResource SeparatorRow}" 
-            Content="Automatic splitting"/>
+            Content="自动切分时段"/>
 
         <Separator 
             Grid.Row="{StaticResource SeparatorRow}" />
@@ -147,19 +147,19 @@
             Height="30"
             SelectedValuePath="Tag"
             SelectedValue="{Binding NewSplitTimingType}"
-            materialDesign:HintAssist.HelperText="when">
+            materialDesign:HintAssist.HelperText="触发时间点">
 
-            <ComboBoxItem Content="immediately when">
+            <ComboBoxItem Content="满足条件后立即触发">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>Immediate</generic:TimingType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
-            <ComboBoxItem Content="when the game is loading after">
+            <ComboBoxItem Content="满足条件后第一次游戏加载">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>OnLoading</generic:TimingType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
-            <ComboBoxItem Content="when I'm warping after">
+            <ComboBoxItem Content="满足条件后第一次传送">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>OnWarp</generic:TimingType>
                 </ComboBoxItem.Tag>
@@ -175,34 +175,34 @@
             Height="30"
             SelectedValuePath="Tag"
             SelectedValue="{Binding NewSplitType}"
-            materialDesign:HintAssist.HelperText="what"
+            materialDesign:HintAssist.HelperText="事件条件"
             IsEnabled="{Binding NewSplitEnabledSplitType}">
 
-            <ComboBoxItem Content="I kill a boss">
+            <ComboBoxItem Content="击杀Boss">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Boss</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I level my character">
+            <ComboBoxItem Content="对角色升级">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Attribute</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I unlock a bonfire">
+            <ComboBoxItem Content="解锁篝火">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Bonfire</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I obtain an item">
+            <ComboBoxItem Content="获取物品">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Item</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I reach a position">
+            <ComboBoxItem Content="抵达位置">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Position</generic:SplitType>
                 </ComboBoxItem.Tag>
@@ -216,13 +216,13 @@
             </ComboBoxItem>
             -->
             
-            <ComboBoxItem Content="I trigger a known flag">
+            <ComboBoxItem Content="触发已知事件标志">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>KnownFlag</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I trigger a custom flag">
+            <ComboBoxItem Content="触发自定义事件标志">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Flag</generic:SplitType>
                 </ComboBoxItem.Tag>
@@ -239,7 +239,7 @@
             HorizontalAlignment="Left"
             ItemsSource="{Binding Bosses}" 
             SelectedValue="{Binding NewSplitValue}"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="Boss"
             Visibility="{Binding NewSplitType, Converter={StaticResource SplitTypeVisibilityConverter}, ConverterParameter=Boss}"
             DisplayMemberPath="Name"
             SelectedValuePath="Value"
@@ -258,68 +258,68 @@
                 Margin="5, 5, 5, 5"
                 Width="200"
                 SelectedValue="{Binding NewSplitValue.AttributeType}"
-                materialDesign:HintAssist.HelperText="which"
+                materialDesign:HintAssist.HelperText="属性"
                 Style="{StaticResource MaterialDesignFloatingHintComboBox}"
                 SelectedValuePath="Tag"
                 IsEditable="True" 
                 IsTextSearchEnabled="False" 
                 StaysOpenOnEdit="True">
 
-                <ComboBoxItem Content="Vitality">
+                <ComboBoxItem Content="体力">
                     <ComboBoxItem.Tag>
                         <darkSouls11:Attribute>Vitality</darkSouls11:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Attunement">
+                <ComboBoxItem Content="记忆力">
                     <ComboBoxItem.Tag>
                         <darkSouls11:Attribute>Attunement</darkSouls11:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Endurance">
+                <ComboBoxItem Content="持久力">
                     <ComboBoxItem.Tag>
                         <darkSouls11:Attribute>Endurance</darkSouls11:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Strength">
+                <ComboBoxItem Content="力气">
                     <ComboBoxItem.Tag>
                         <darkSouls11:Attribute>Strength</darkSouls11:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Dexterity">
+                <ComboBoxItem Content="敏捷">
                     <ComboBoxItem.Tag>
                         <darkSouls11:Attribute>Dexterity</darkSouls11:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Resistance">
+                <ComboBoxItem Content="耐力">
                     <ComboBoxItem.Tag>
                         <darkSouls11:Attribute>Resistance</darkSouls11:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Intelligence">
+                <ComboBoxItem Content="智力">
                     <ComboBoxItem.Tag>
                         <darkSouls11:Attribute>Intelligence</darkSouls11:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Faith">
+                <ComboBoxItem Content="信仰">
                     <ComboBoxItem.Tag>
                         <darkSouls11:Attribute>Faith</darkSouls11:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Humanity">
+                <ComboBoxItem Content="人性">
                     <ComboBoxItem.Tag>
                         <darkSouls11:Attribute>Humanity</darkSouls11:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="SoulLevel">
+                <ComboBoxItem Content="灵魂等级">
                     <ComboBoxItem.Tag>
                         <darkSouls11:Attribute>SoulLevel</darkSouls11:Attribute>
                     </ComboBoxItem.Tag>
@@ -329,7 +329,7 @@
             <TextBox
                 Margin="5, 5, 5, 5"
                 Width="200"
-                materialDesign:HintAssist.HelperText="Level"
+                materialDesign:HintAssist.HelperText="等级"
                 Text="{Binding NewSplitValue.Level}"
                 />
         </StackPanel>
@@ -350,7 +350,7 @@
             HorizontalAlignment="Left"
             ItemsSource="{Binding Source={StaticResource KnownFlagsCollectionViewSource}}"
             SelectedValue="{Binding NewSplitValue}"
-            materialDesign:HintAssist.HelperText="what flag?"
+            materialDesign:HintAssist.HelperText="事件标志?"
             Visibility="{Binding NewSplitType, Converter={StaticResource SplitTypeVisibilityConverter}, ConverterParameter=KnownFlag}"
             DisplayMemberPath="Name"
             SelectedValuePath="Value"
@@ -376,7 +376,7 @@
                 HorizontalAlignment="Left"
                 ItemsSource="{Binding Source={StaticResource BonfiresCollectionViewSource}}" 
                 SelectedValue="{Binding NewSplitBonfireState.Bonfire}"
-                materialDesign:HintAssist.HelperText="which"
+                materialDesign:HintAssist.HelperText="篝火"
                 DisplayMemberPath="Name"
                 SelectedValuePath="Value"
                 Style="{StaticResource MaterialDesignFloatingHintComboBox}"
@@ -398,44 +398,44 @@
                 Margin="5"
                 Width="205"
                 SelectedValue="{Binding NewSplitBonfireState.State}"
-                materialDesign:HintAssist.HelperText="which"
+                materialDesign:HintAssist.HelperText="篝火状态"
                 Style="{StaticResource MaterialDesignFloatingHintComboBox}"
                 SelectedValuePath="Tag"
                 IsEditable="True" 
                 IsTextSearchEnabled="False" 
                 StaysOpenOnEdit="True">
 
-                <ComboBoxItem Content="Not discovered">
+                <ComboBoxItem Content="未发现">
                     <ComboBoxItem.Tag>
                         <darkSouls11:BonfireState>Unknown</darkSouls11:BonfireState>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Discovered">
+                <ComboBoxItem Content="已发现">
                     <ComboBoxItem.Tag>
                         <darkSouls11:BonfireState>Discovered</darkSouls11:BonfireState>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Unlocked">
+                <ComboBoxItem Content="已解锁">
                     <ComboBoxItem.Tag>
                         <darkSouls11:BonfireState>Unlocked</darkSouls11:BonfireState>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Kindled 1">
+                <ComboBoxItem Content="注火1次">
                     <ComboBoxItem.Tag>
                         <darkSouls11:BonfireState>Kindled1</darkSouls11:BonfireState>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Kindled 2">
+                <ComboBoxItem Content="注火2次">
                     <ComboBoxItem.Tag>
                         <darkSouls11:BonfireState>Kindled2</darkSouls11:BonfireState>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Kindled 3">
+                <ComboBoxItem Content="注火3次">
                     <ComboBoxItem.Tag>
                         <darkSouls11:BonfireState>Kindled3</darkSouls11:BonfireState>
                     </ComboBoxItem.Tag>
@@ -457,7 +457,7 @@
                 DisplayMemberPath="Name"
                 SelectedValuePath="ItemType"
                 SelectedValue="{Binding NewSplitItemState.ItemType}"
-                materialDesign:HintAssist.HelperText="which"
+                materialDesign:HintAssist.HelperText="物品"
                 Style="{StaticResource MaterialDesignFloatingHintComboBox}"
                 IsEditable="True" 
                 IsTextSearchEnabled="False" 
