@@ -80,20 +80,20 @@
         <CheckBox 
             Grid.Row="{StaticResource StartAutomaticallyRow}"
             Margin="5" 
-            Content="Start automatically" 
+            Content="自动开始" 
             IsChecked="{Binding StartAutomatically}"/>
 
         <!-- row ============================================================================================================================================================================================== -->
         <CheckBox
             Grid.Row="{StaticResource LockTimerRow}"
             Margin="5"
-            Content="Overwrite IGT with 0:00 when the timer starts (for NG+ saves/mortal journey)"
+            Content="计时器启动时将IGT重置为0:00（高周目存档/记忆的连战用）"
             IsChecked="{Binding OverwriteIgtOnStart}"/>
 
         <!-- row ============================================================================================================================================================================================== -->
         <Label 
             Grid.Row="{StaticResource SeparatorRow}" 
-            Content="Automatic splitting"/>
+            Content="自动切分时段"/>
 
         <Separator 
             Grid.Row="{StaticResource SeparatorRow}" />
@@ -108,14 +108,14 @@
             Height="30"
             SelectedValuePath="Tag"
             SelectedValue="{Binding NewSplitTimingType}"
-            materialDesign:HintAssist.HelperText="when">
+            materialDesign:HintAssist.HelperText="触发时间点">
 
-            <ComboBoxItem Content="immediately when">
+            <ComboBoxItem Content="满足条件后立即触发">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>Immediate</generic:TimingType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
-            <ComboBoxItem Content="when the game is loading after">
+            <ComboBoxItem Content="满足条件后第一次游戏加载">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>OnLoading</generic:TimingType>
                 </ComboBoxItem.Tag>
@@ -131,28 +131,28 @@
             Height="30"
             SelectedValuePath="Tag"
             SelectedValue="{Binding NewSplitType}"
-            materialDesign:HintAssist.HelperText="what"
+            materialDesign:HintAssist.HelperText="事件条件"
             IsEnabled="{Binding NewSplitEnabledSplitType}">
 
-            <ComboBoxItem Content="I kill a boss">
+            <ComboBoxItem Content="击杀Boss">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Boss</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I unlock an idol">
+            <ComboBoxItem Content="解锁鬼佛">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Bonfire</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I reach a position">
+            <ComboBoxItem Content="抵达位置">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Position</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I trigger a flag">
+            <ComboBoxItem Content="触发事件标志">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Flag</generic:SplitType>
                 </ComboBoxItem.Tag>
@@ -176,7 +176,7 @@
             HorizontalAlignment="Left"
             ItemsSource="{Binding Bosses}" 
             SelectedValue="{Binding NewSplitValue}"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="Boss"
             Visibility="{Binding NewSplitType, Converter={StaticResource SplitTypeVisibilityConverter}, ConverterParameter=Boss}"
             DisplayMemberPath="Name"
             SelectedValuePath="Value"
@@ -193,7 +193,7 @@
             HorizontalAlignment="Left"
             ItemsSource="{Binding Source={StaticResource IdolsCollectionViewSource}}" 
             SelectedValue="{Binding NewSplitValue}"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="鬼佛"
             Visibility="{Binding NewSplitType, Converter={StaticResource SplitTypeVisibilityConverter}, ConverterParameter=Bonfire}"
             DisplayMemberPath="Name"
             SelectedValuePath="Value"
