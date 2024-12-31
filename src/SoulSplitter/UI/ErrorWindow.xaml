@@ -41,7 +41,7 @@
 
         <DockPanel>
             <CheckBox
-                Content="Ignore 'process not running' errors"
+                Content="忽略 '游戏进程未运行' 错误"
                 IsChecked="{Binding IgnoreProcessNotRunningErrors}"/>
 
             <!-- Clear -->
@@ -49,7 +49,7 @@
                 Margin="10,0,0,0"
                 HorizontalAlignment="Left"
                 Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
-                ToolTip="Clear error list"
+                ToolTip="清除错误列表"
                 Width="25"
                 Height="25"
                 Command="{Binding CommandClearErrors}">
@@ -69,11 +69,11 @@
 
                 <DataGridTextColumn
                     Binding="{Binding DateTime, StringFormat='{}{0:yyyy-MM-dd HH:mm:ss}'}"
-                    Header="DateTime"/>
+                    Header="时间"/>
 
                 <DataGridTextColumn
                     Binding="{Binding Error}"
-                    Header="Message"/>
+                    Header="消息"/>
 
             </DataGrid.Columns>
         </DataGrid>

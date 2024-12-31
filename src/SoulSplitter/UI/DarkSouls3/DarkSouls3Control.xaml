@@ -83,20 +83,20 @@
         <CheckBox 
             Grid.Row="{StaticResource StartAutomaticallyRow}"
             Margin="5" 
-            Content="Start automatically" 
+            Content="自动开始" 
             IsChecked="{Binding StartAutomatically}"/>
 
         <!-- row ============================================================================================================================================================================================== -->
         <CheckBox
             Grid.Row="{StaticResource LockTimerRow}"
             Margin="5"
-            Content="Lock IGT to 0:00 (for NG+ saves)"
+            Content="将IGT重置为0:00（高周目存档用）"
             IsChecked="{Binding LockIgtToZero}"/>
 
         <!-- row ============================================================================================================================================================================================== -->
         <Label 
             Grid.Row="{StaticResource SeparatorRow}" 
-            Content="Automatic splitting"/>
+            Content="自动切分时段"/>
 
         <Separator 
             Grid.Row="{StaticResource SeparatorRow}" />
@@ -111,14 +111,14 @@
             Height="30"
             SelectedValuePath="Tag"
             SelectedValue="{Binding NewSplitTimingType}"
-            materialDesign:HintAssist.HelperText="when">
+            materialDesign:HintAssist.HelperText="触发时间点">
 
-            <ComboBoxItem Content="immediately when">
+            <ComboBoxItem Content="满足条件后立即触发">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>Immediate</generic:TimingType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
-            <ComboBoxItem Content="when the game is loading after">
+            <ComboBoxItem Content="满足条件后第一次游戏加载">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>OnLoading</generic:TimingType>
                 </ComboBoxItem.Tag>
@@ -134,40 +134,40 @@
             Height="30"
             SelectedValuePath="Tag"
             SelectedValue="{Binding NewSplitType}"
-            materialDesign:HintAssist.HelperText="what"
+            materialDesign:HintAssist.HelperText="事件条件"
             IsEnabled="{Binding NewSplitEnabledSplitType}">
 
-            <ComboBoxItem Content="I kill a boss">
+            <ComboBoxItem Content="击杀Boss">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Boss</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I light a bonfire">
+            <ComboBoxItem Content="点亮篝火">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Bonfire</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I pick up an item">
+            <ComboBoxItem Content="拾取物品">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>ItemPickup</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I level my character">
+            <ComboBoxItem Content="对角色升级">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Attribute</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I trigger a flag">
+            <ComboBoxItem Content="触发事件标志">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Flag</generic:SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I reach a position">
+            <ComboBoxItem Content="抵达位置">
                 <ComboBoxItem.Tag>
                     <generic:SplitType>Position</generic:SplitType>
                 </ComboBoxItem.Tag>
@@ -184,7 +184,7 @@
             HorizontalAlignment="Left"
             ItemsSource="{Binding Bosses}" 
             SelectedValue="{Binding NewSplitValue}"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="Boss"
             Visibility="{Binding NewSplitType, Converter={StaticResource SplitTypeVisibilityConverter}, ConverterParameter=Boss}"
             DisplayMemberPath="Name"
             SelectedValuePath="Value"
@@ -201,7 +201,7 @@
             HorizontalAlignment="Left"
             ItemsSource="{Binding Source={StaticResource BonfiresCollectionViewSource}}" 
             SelectedValue="{Binding NewSplitValue}"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="篝火"
             Visibility="{Binding NewSplitType, Converter={StaticResource SplitTypeVisibilityConverter}, ConverterParameter=Bonfire}"
             DisplayMemberPath="Name"
             SelectedValuePath="Value"
@@ -228,7 +228,7 @@
             Width="420"
             ItemsSource="{Binding ItemPickups}" 
             SelectedValue="{Binding NewSplitValue}"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="物品"
             Visibility="{Binding NewSplitType, Converter={StaticResource SplitTypeVisibilityConverter}, ConverterParameter=ItemPickup}"
             Style="{StaticResource MaterialDesignFloatingHintComboBox}"
             SelectedValuePath="Value"
@@ -257,74 +257,74 @@
                 Margin="5, 5, 5, 5"
                 Width="200"
                 SelectedValue="{Binding NewSplitValue.AttributeType}"
-                materialDesign:HintAssist.HelperText="which"
+                materialDesign:HintAssist.HelperText="属性"
                 Style="{StaticResource MaterialDesignFloatingHintComboBox}"
                 SelectedValuePath="Tag"
                 IsEditable="True" 
                 IsTextSearchEnabled="False" 
                 StaysOpenOnEdit="True">
 
-                <ComboBoxItem Content="Vigor">
+                <ComboBoxItem Content="生命力">
                     <ComboBoxItem.Tag>
                         <darkSouls3Memory:Attribute>Vigor</darkSouls3Memory:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Attunement">
+                <ComboBoxItem Content="集中力">
                     <ComboBoxItem.Tag>
                         <darkSouls3Memory:Attribute>Attunement</darkSouls3Memory:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Endurance">
+                <ComboBoxItem Content="持久力">
                     <ComboBoxItem.Tag>
                         <darkSouls3Memory:Attribute>Endurance</darkSouls3Memory:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Vitality">
+                <ComboBoxItem Content="体力">
                     <ComboBoxItem.Tag>
                         <darkSouls3Memory:Attribute>Vitality</darkSouls3Memory:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Strength">
+                <ComboBoxItem Content="力气">
                     <ComboBoxItem.Tag>
                         <darkSouls3Memory:Attribute>Strength</darkSouls3Memory:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Dexterity">
+                <ComboBoxItem Content="敏捷">
                     <ComboBoxItem.Tag>
                         <darkSouls3Memory:Attribute>Dexterity</darkSouls3Memory:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Intelligence">
+                <ComboBoxItem Content="智力">
                     <ComboBoxItem.Tag>
                         <darkSouls3Memory:Attribute>Intelligence</darkSouls3Memory:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Faith">
+                <ComboBoxItem Content="信仰">
                     <ComboBoxItem.Tag>
                         <darkSouls3Memory:Attribute>Faith</darkSouls3Memory:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Luck">
+                <ComboBoxItem Content="运气">
                     <ComboBoxItem.Tag>
                         <darkSouls3Memory:Attribute>Luck</darkSouls3Memory:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="SoulLevel">
+                <ComboBoxItem Content="灵魂等级">
                     <ComboBoxItem.Tag>
                         <darkSouls3Memory:Attribute>SoulLevel</darkSouls3Memory:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Humanity">
+                <ComboBoxItem Content="余火">
                     <ComboBoxItem.Tag>
                         <darkSouls3Memory:Attribute>Humanity</darkSouls3Memory:Attribute>
                     </ComboBoxItem.Tag>
@@ -334,7 +334,7 @@
             <TextBox
             Margin="5, 5, 5, 5"
             Width="200"
-            materialDesign:HintAssist.HelperText="Level"
+            materialDesign:HintAssist.HelperText="等级"
             Text="{Binding NewSplitValue.Level}"
             />
         </StackPanel>

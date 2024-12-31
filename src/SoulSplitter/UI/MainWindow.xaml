@@ -86,21 +86,21 @@
                 <Menu
                     Foreground="White">
                     <MenuItem
-                        Header="File"
+                        Header="文件"
                         Background="{DynamicResource PrimaryHueMidBrush}">
                         <MenuItem 
                             Background="{DynamicResource PrimaryHueMidBrush}"
-                            Header="Import settings" 
+                            Header="导入设置" 
                             Command="{Binding CommandImportSettingsFromFile}"
                             Icon="{materialDesign:PackIcon Kind=FolderOpen}" 
-                            ToolTip="Import soulsplitter settings from file"/>
+                            ToolTip="从文件导入SoulSplitter设置"/>
 
                         <MenuItem 
                             Background="{DynamicResource PrimaryHueMidBrush}"
-                            Header="Export settings"
+                            Header="导出设置"
                             Command="{Binding CommandExportSettingsFromFile}"
                             Icon="{materialDesign:PackIcon Kind=ContentSave}" 
-                            ToolTip="Export soulsplitter settings to file"/>
+                            ToolTip="导出SoulSplitter设置到文件"/>
                     </MenuItem>
                 </Menu>
 
@@ -109,9 +109,9 @@
                     Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}"
                     FontWeight="Normal"
                     FontSize="15"
-                    Content="Help" 
+                    Content="帮助" 
                     Command="{Binding CommandTroubleShooting}"
-                    ToolTip="Open help page"/>
+                    ToolTip="打开帮助页面"/>
 
                 <materialDesign:Badged
                     BadgePlacementMode="Right"
@@ -121,11 +121,11 @@
                     ToolBar.OverflowMode="Never">
                     <Button
                         Foreground="White"
-                        Content="Errors"
+                        Content="错误"
                         FontWeight="Normal"
                         FontSize="15"
                         Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}"
-                        ToolTip="Show error window" 
+                        ToolTip="显示错误窗口" 
                         Command="{Binding CommandShowErrors}"/>
                 </materialDesign:Badged>
 
@@ -134,18 +134,18 @@
                     Foreground="White">
                     <MenuItem 
                         
-                        Header="Tools"
+                        Header="工具"
                         Background="{DynamicResource PrimaryHueMidBrush}">
                         <MenuItem 
-                            Header="Event flag tracker" 
+                            Header="事件标志追踪器" 
                             Command="{Binding CommandOpenFlagTrackerWindow}"
                             Icon="{materialDesign:PackIcon Kind=OrderBoolAscendingVariant}"
-                            ToolTip="Track event flag completion and translate it to a percentage. Stream friendly"/>
+                            ToolTip="追踪事件标志的进度并转化为百分比表示。对直播友好"/>
                         <MenuItem
-                            Header="Event flag logger" 
+                            Header="事件标志记录器" 
                             Command="{Binding CommandRunEventFlagLogger}"
                             Icon="{materialDesign:PackIcon Kind=Console}"
-                            ToolTip="Open the event flag logger"/>
+                            ToolTip="打开事件标志记录器"/>
                     </MenuItem>
                 </Menu>
                 
@@ -172,7 +172,7 @@
             Grid.Row="1"
             SelectedIndex="{Binding SelectedGame, Converter={StaticResource GameToSelectedIndexConverter}}">
        
-            <TabItem Header ="Dark Souls 1">
+            <TabItem Header="黑暗之魂1">
                 
 <!--
                     <uIv2:SplitSettingsControl
@@ -195,23 +195,23 @@
                 
             </TabItem>
 
-            <TabItem Header ="Dark Souls 2">
+            <TabItem Header="黑暗之魂2">
                 <darkSouls2:DarkSouls2Control DataContext="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type TabControl}}, Path=DataContext.DarkSouls2ViewModel}"/>
             </TabItem>
 
-            <TabItem Header ="Dark Souls 3" >
+            <TabItem Header="黑暗之魂3" >
                 <darkSouls3:DarkSouls3Control DataContext="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type TabControl}}, Path=DataContext.DarkSouls3ViewModel}"/>
             </TabItem>
 
-            <TabItem Header="Sekiro">
+            <TabItem Header="只狼">
                 <sekiro:SekiroControl DataContext="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type TabControl}}, Path=DataContext.SekiroViewModel}"/>
             </TabItem>
 
-            <TabItem Header="Elden Ring">
+            <TabItem Header="艾尔登法环">
                 <eldenRing:EldenRingControl DataContext="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type TabControl}}, Path=DataContext.EldenRingViewModel}"/>
             </TabItem>
 
-            <TabItem Header="Armored Core">
+            <TabItem Header="装甲核心6">
                 <uIv2:SplitSettingsControl
                     Game="ArmoredCore6"
                     TimingTypes="{Binding ArmoredCore6ViewModel.TimingTypes}"

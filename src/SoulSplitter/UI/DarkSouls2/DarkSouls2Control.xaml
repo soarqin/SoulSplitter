@@ -75,13 +75,13 @@
         <CheckBox 
             Grid.Row="{StaticResource StartAutomaticallyRow}"
             Margin="5" 
-            Content="Start automatically" 
+            Content="自动开始" 
             IsChecked="{Binding StartAutomatically}"/>
 
         <!-- row ============================================================================================================================================================================================== -->
         <Label 
             Grid.Row="{StaticResource SeparatorRow}" 
-            Content="Automatic splitting"/>
+            Content="自动切分时段"/>
 
         <Separator 
             Grid.Row="{StaticResource SeparatorRow}" />
@@ -96,14 +96,14 @@
             Height="30"
             SelectedValuePath="Tag"
             SelectedValue="{Binding NewSplitTimingType}"
-            materialDesign:HintAssist.HelperText="when">
+            materialDesign:HintAssist.HelperText="时间条件">
 
-            <ComboBoxItem Content="immediately when">
+            <ComboBoxItem Content="满足条件后立即触发">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>Immediate</generic:TimingType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
-            <ComboBoxItem Content="when the game is loading after">
+            <ComboBoxItem Content="满足条件后第一次游戏加载">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>OnLoading</generic:TimingType>
                 </ComboBoxItem.Tag>
@@ -119,28 +119,28 @@
             Height="30"
             SelectedValuePath="Tag"
             SelectedValue="{Binding NewSplitType}"
-            materialDesign:HintAssist.HelperText="what"
+            materialDesign:HintAssist.HelperText="事件条件"
             IsEnabled="{Binding NewSplitTypeEnabled}">
 
-            <ComboBoxItem Content="I reach a position">
+            <ComboBoxItem Content="抵达位置">
                 <ComboBoxItem.Tag>
                     <darkSouls21:DarkSouls2SplitType>Position</darkSouls21:DarkSouls2SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I kill a boss">
+            <ComboBoxItem Content="击杀Boss">
                 <ComboBoxItem.Tag>
                     <darkSouls21:DarkSouls2SplitType>BossKill</darkSouls21:DarkSouls2SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I level my character">
+            <ComboBoxItem Content="对角色升级">
                 <ComboBoxItem.Tag>
                     <darkSouls21:DarkSouls2SplitType>Attribute</darkSouls21:DarkSouls2SplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I trigger a flag">
+            <ComboBoxItem Content="触发事件标志">
                 <ComboBoxItem.Tag>
                     <darkSouls21:DarkSouls2SplitType>Flag</darkSouls21:DarkSouls2SplitType>
                 </ComboBoxItem.Tag>
@@ -214,7 +214,7 @@
                 HorizontalAlignment="Left"
                 ItemsSource="{Binding Bosses}" 
                 SelectedValue="{Binding NewSplitValue.BossType}"
-                materialDesign:HintAssist.HelperText="which"
+                materialDesign:HintAssist.HelperText="Boss"
                 DisplayMemberPath="Name"
                 SelectedValuePath="Value"
                 Style="{StaticResource MaterialDesignFloatingHintComboBox}"
@@ -226,7 +226,7 @@
                 Width="205"
                 Margin="5"
                 Text="{Binding NewSplitValue.Count}"
-                materialDesign:HintAssist.HelperText="count"/>
+                materialDesign:HintAssist.HelperText="数量"/>
         </StackPanel>
 
         <!-- Attributes -->
@@ -239,7 +239,7 @@
             Margin="5, 5, 5, 5"
             Width="205"
             SelectedValue="{Binding NewSplitValue.AttributeType}"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="属性"
             Visibility="{Binding NewSplitAttributeEnabled, Converter={StaticResource BoolToVisibilityConverter}}"
             Style="{StaticResource MaterialDesignFloatingHintComboBox}"
             SelectedValuePath="Tag"
@@ -247,61 +247,61 @@
             IsTextSearchEnabled="False" 
             StaysOpenOnEdit="True">
 
-                <ComboBoxItem Content="Soul level">
+                <ComboBoxItem Content="灵魂等级">
                     <ComboBoxItem.Tag>
                         <darkSouls22:Attribute>SoulLevel</darkSouls22:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Vigor">
+                <ComboBoxItem Content="生命力">
                     <ComboBoxItem.Tag>
                         <darkSouls22:Attribute>Vigor</darkSouls22:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Endurance">
+                <ComboBoxItem Content="持久力">
                     <ComboBoxItem.Tag>
                         <darkSouls22:Attribute>Endurance</darkSouls22:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Vitality">
+                <ComboBoxItem Content="体力">
                     <ComboBoxItem.Tag>
                         <darkSouls22:Attribute>Vitality</darkSouls22:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Attunement">
+                <ComboBoxItem Content="记忆力">
                     <ComboBoxItem.Tag>
                         <darkSouls22:Attribute>Attunement</darkSouls22:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Strength">
+                <ComboBoxItem Content="力气">
                     <ComboBoxItem.Tag>
                         <darkSouls22:Attribute>Strength</darkSouls22:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Dexterity">
+                <ComboBoxItem Content="敏捷">
                     <ComboBoxItem.Tag>
                         <darkSouls22:Attribute>Dexterity</darkSouls22:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Adaptability">
+                <ComboBoxItem Content="适应力">
                     <ComboBoxItem.Tag>
                         <darkSouls22:Attribute>Adaptability</darkSouls22:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Intelligence">
+                <ComboBoxItem Content="智力">
                     <ComboBoxItem.Tag>
                         <darkSouls22:Attribute>Intelligence</darkSouls22:Attribute>
                     </ComboBoxItem.Tag>
                 </ComboBoxItem>
 
-                <ComboBoxItem Content="Faith">
+                <ComboBoxItem Content="信仰">
                     <ComboBoxItem.Tag>
                         <darkSouls22:Attribute>Faith</darkSouls22:Attribute>
                     </ComboBoxItem.Tag>
@@ -311,7 +311,7 @@
             <TextBox
             Margin="5, 5, 5, 5"
             Width="205"
-            materialDesign:HintAssist.HelperText="Level"
+            materialDesign:HintAssist.HelperText="等级"
             Text="{Binding NewSplitValue.Level}"
             />
 
@@ -326,7 +326,7 @@
             HorizontalAlignment="Left"
             Text="{Binding NewSplitValue}"
             TextChanged="TextBoxRawFlag_OnTextChanged"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="事件标志"
             Visibility="{Binding NewSplitFlagEnabled, Converter={StaticResource BoolToVisibilityConverter}}"
         />
 

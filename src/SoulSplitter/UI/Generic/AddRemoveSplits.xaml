@@ -45,7 +45,7 @@
             Margin="5,0,0,0"
             HorizontalAlignment="Left"
             Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
-            ToolTip="Add a split"
+            ToolTip="添加一个分段"
             Command="{Binding AddSplitCommand}">
             <materialDesign:PackIcon
                 Kind="Plus"
@@ -57,7 +57,7 @@
             Margin="10,0,0,0"
             HorizontalAlignment="Left"
             Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
-            ToolTip="Remove selected split"
+            ToolTip="移除所选分段"
             Command="{Binding RemoveSplitCommand}">
             <materialDesign:PackIcon
                 Kind="Close"

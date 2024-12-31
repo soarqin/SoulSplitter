@@ -89,7 +89,7 @@
             Width="50"
             Height="25"
             Margin="5,0,0,0"
-            materialDesign:HintAssist.HelperText="Size">
+            materialDesign:HintAssist.HelperText="大小">
             <TextBox.Text>
                 <Binding Path="Position.Size">
                     <Binding.ValidationRules>
@@ -104,7 +104,7 @@
             HorizontalAlignment="Left"
             Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
             Command="{Binding CopyGamePositionCommand}"
-            ToolTip="Read current game position">
+            ToolTip="从游戏中读取当前所处位置">
             <materialDesign:PackIcon
                 Kind="CrosshairsGps"
                 Height="30"

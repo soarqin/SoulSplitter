@@ -111,7 +111,7 @@
         <CheckBox
             Grid.Row="{StaticResource StartAutomaticallyRow}"
             Margin="5"
-            Content="Start automatically" 
+            Content="自动开始" 
             IsChecked="{Binding StartAutomatically}"/>
 
         <!-- row ============================================================================================================================================================================================== -->
@@ -119,13 +119,13 @@
         <CheckBox
             Grid.Row="{StaticResource LockTimerRow}"
             Margin="5"
-            Content="Lock IGT to 0:00 (for NG+ saves)"
+            Content="将IGT重置为0:00（高周目存档用）"
             IsChecked="{Binding LockIgtToZero}"/>
 
         <!-- row ============================================================================================================================================================================================== -->
         <Label 
             Grid.Row="{StaticResource SeparatorRow}" 
-            Content="Automatic splitting"/>
+            Content="自动切分时段"/>
 
         <Separator 
             Grid.Row="{StaticResource SeparatorRow}" />
@@ -141,19 +141,19 @@
             Height="30"
             SelectedValuePath="Tag"
             SelectedValue="{Binding NewSplitTimingType}"
-            materialDesign:HintAssist.HelperText="when">
+            materialDesign:HintAssist.HelperText="触发时间点">
 
-            <ComboBoxItem Content="immediately when">
+            <ComboBoxItem Content="满足条件后立即触发">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>Immediate</generic:TimingType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
-            <ComboBoxItem Content="when the game is loading after">
+            <ComboBoxItem Content="满足条件后第一次游戏加载">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>OnLoading</generic:TimingType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
-            <ComboBoxItem Content="During a blackscreen after">
+            <ComboBoxItem Content="满足条件后第一次过场黑屏">
                 <ComboBoxItem.Tag>
                     <generic:TimingType>OnBlackscreen</generic:TimingType>
                 </ComboBoxItem.Tag>
@@ -169,16 +169,16 @@
             Height="30"
             SelectedValuePath="Tag"
             SelectedValue="{Binding NewSplitType}"
-            materialDesign:HintAssist.HelperText="what"
+            materialDesign:HintAssist.HelperText="事件条件"
             IsEnabled="{Binding EnabledSplitType}">
 
-            <ComboBoxItem Content="I kill a boss">
+            <ComboBoxItem Content="击杀Boss">
                 <ComboBoxItem.Tag>
                     <eldenRingSplits:EldenRingSplitType>Boss</eldenRingSplits:EldenRingSplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I light a grace">
+            <ComboBoxItem Content="点亮赐福">
                 <ComboBoxItem.Tag>
                     <eldenRingSplits:EldenRingSplitType>Grace</eldenRingSplits:EldenRingSplitType>
                 </ComboBoxItem.Tag>
@@ -190,25 +190,25 @@
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
             -->
-            <ComboBoxItem Content="I pick up an item">
+            <ComboBoxItem Content="拾取物品">
                 <ComboBoxItem.Tag>
                     <eldenRingSplits:EldenRingSplitType>ItemPickup</eldenRingSplits:EldenRingSplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I trigger a known flag">
+            <ComboBoxItem Content="触发已知事件标志">
                 <ComboBoxItem.Tag>
                     <eldenRingSplits:EldenRingSplitType>KnownFlag</eldenRingSplits:EldenRingSplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I reach a position">
+            <ComboBoxItem Content="抵达位置">
                 <ComboBoxItem.Tag>
                     <eldenRingSplits:EldenRingSplitType>Position</eldenRingSplits:EldenRingSplitType>
                 </ComboBoxItem.Tag>
             </ComboBoxItem>
 
-            <ComboBoxItem Content="I trigger a flag">
+            <ComboBoxItem Content="触发事件标志">
                 <ComboBoxItem.Tag>
                     <eldenRingSplits:EldenRingSplitType>Flag</eldenRingSplits:EldenRingSplitType>
                 </ComboBoxItem.Tag>
@@ -227,7 +227,7 @@
             HorizontalAlignment="Left"
             ItemsSource="{Binding Source={StaticResource BossesCollectionViewSource}}" 
             SelectedValue="{Binding NewSplitBoss}"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="Boss"
             Visibility="{Binding VisibleBossSplit, Converter={StaticResource BoolToVisibilityConverter}}"
             DisplayMemberPath="Name"
             SelectedValuePath="Boss"
@@ -254,7 +254,7 @@
             HorizontalAlignment="Left"
             ItemsSource="{Binding Source={StaticResource GracesCollectionViewSource}}" 
             SelectedValue="{Binding NewSplitGrace}"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="赐福"
             Visibility="{Binding VisibleGraceSplit, Converter={StaticResource BoolToVisibilityConverter}}"
             DisplayMemberPath="Name"
             SelectedValuePath="Grace"
@@ -281,7 +281,7 @@
             HorizontalAlignment="Left"
             Text="{Binding NewSplitFlag}"
             TextChanged="TextBoxBase_OnTextChanged"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="事件标志"
             Visibility="{Binding VisibleFlagSplit, Converter={StaticResource BoolToVisibilityConverter}}"
             />
 
@@ -335,7 +335,7 @@
             Width="420"
             ItemsSource="{Binding ItemPickups}" 
             SelectedValue="{Binding NewSplitItemPickup}"
-            materialDesign:HintAssist.HelperText="which"
+            materialDesign:HintAssist.HelperText="物品"
             Visibility="{Binding VisibleItemPickupSplit, Converter={StaticResource BoolToVisibilityConverter}}"
             Style="{StaticResource MaterialDesignFloatingHintComboBox}"
             SelectedValuePath="ItemPickup"
@@ -396,7 +396,7 @@
                 Height="25"
                 Margin="0,0,0,0"
                 Text="{Binding NewSplitPosition.Area}"
-                materialDesign:HintAssist.Hint="Area"
+                materialDesign:HintAssist.Hint="分区"
                 materialDesign:HintAssist.HelperText="{Binding CurrentPosition.Area}"
                 PreviewTextInput="OnPreviewTextInput_Byte"/>
 
@@ -405,7 +405,7 @@
                 Height="25"
                 Margin="5,0,0,0"
                 Text="{Binding NewSplitPosition.Block}"
-                materialDesign:HintAssist.Hint="Block"
+                materialDesign:HintAssist.Hint="地块"
                 materialDesign:HintAssist.HelperText="{Binding CurrentPosition.Block}"
                 PreviewTextInput="OnPreviewTextInput_Byte"/>
 
@@ -414,7 +414,7 @@
                 Height="25"
                 Margin="5,0,0,0"
                 Text="{Binding NewSplitPosition.Region}"
-                materialDesign:HintAssist.Hint="Region"
+                materialDesign:HintAssist.Hint="区域"
                 materialDesign:HintAssist.HelperText="{Binding CurrentPosition.Region}"
                 PreviewTextInput="OnPreviewTextInput_Byte"/>
 
@@ -423,7 +423,7 @@
                 Height="25"
                 Margin="5,0,0,0"
                 Text="{Binding NewSplitPosition.Size}"
-                materialDesign:HintAssist.Hint="Size"
+                materialDesign:HintAssist.Hint="大小"
                 materialDesign:HintAssist.HelperText="{Binding CurrentPosition.Size}"
                 PreviewTextInput="OnPreviewTextInput_Byte"/>
 
@@ -466,7 +466,7 @@
             Margin="300, 5, 0, 0"
             HorizontalAlignment="Left"
             Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
-            ToolTip="Read current game position"
+            ToolTip="从游戏中读取当前所处位置"
             Click="CopyPosition_OnClick"
             IsEnabled="{Binding EnabledAddSplit}">
             <materialDesign:PackIcon
@@ -484,7 +484,7 @@
                 Margin="5"
                 HorizontalAlignment="Left"
                 Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
-                ToolTip="Add a split"
+                ToolTip="添加一个分段"
                 Click="AddSplit_OnClick"
                 IsEnabled="{Binding EnabledAddSplit}">
                 <materialDesign:PackIcon
@@ -498,7 +498,7 @@
                 Margin="5"
                 HorizontalAlignment="Left"
                 Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
-                ToolTip="Remove selected split"
+                ToolTip="移除所选分段"
                 Click="RemoveSplit_OnClick"
                 IsEnabled="{Binding EnabledRemoveSplit}">
                 <materialDesign:PackIcon

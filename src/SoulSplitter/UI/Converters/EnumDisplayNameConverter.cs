@@ -17,6 +17,8 @@
 using System;
 using System.Windows.Data;
 using SoulMemory.Memory;
+using SoulSplitter.Splits.EldenRing;
+using SoulSplitter.UI.Generic;
 
 namespace SoulSplitter.UI.Converters
 {
@@ -24,12 +26,57 @@ namespace SoulSplitter.UI.Converters
     {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
-            if(value is Enum _enum)
+            switch (value)
             {
-                return _enum.GetDisplayName();
+                case EldenRingSplitType erEnum:
+                    switch (erEnum)
+                    {
+                        case EldenRingSplitType.Boss:
+                            return "击杀Boss";
+                        case EldenRingSplitType.Grace:
+                            return "点亮赐福";
+                        case EldenRingSplitType.Flag:
+                            return "事件标志";
+                        case EldenRingSplitType.ItemPickup:
+                            return "拾取物品";
+                        case EldenRingSplitType.Item:
+                            return "获取物品";
+                        case EldenRingSplitType.Position:
+                            return "抵达位置";
+                        case EldenRingSplitType.KnownFlag:
+                            return "已知标志";
+                        default:
+                            return erEnum.GetDisplayName();
+                    }
+                case SplitType soulEnum:
+                    switch (soulEnum)
+                    {
+                        case SplitType.Boss:
+                            return "击杀Boss";
+                        case SplitType.Attribute:
+                            return "升级属性";
+                        case SplitType.Position:
+                            return "抵达位置";
+                        case SplitType.KnownFlag:
+                            return "已知标志";
+                        case SplitType.Flag:
+                            return "事件标志";
+                        case SplitType.Item:
+                            return "获取物品";
+                        case SplitType.Bonfire:
+                            return "点亮篝火";
+                        case SplitType.ItemPickup:
+                            return "拾取物品";
+                        case SplitType.Credits:
+                            return "游戏结尾鸣谢名单";
+                        default:
+                            return soulEnum.GetDisplayName();
+                    }
+                case Enum e:
+                    return e.GetDisplayName();
+                default:
+                    return "";
             }
-
-            return "";
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
