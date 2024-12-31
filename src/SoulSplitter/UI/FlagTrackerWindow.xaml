@@ -63,7 +63,7 @@
             HorizontalAlignment="Stretch" />
 
         <TabControl>
-            <TabItem Header="Flag Tracker">
+            <TabItem Header="事件标志追踪器">
                 <!-- Event flag input column ============================================================================================================================== -->
                 <Grid>
                     <Grid.RowDefinitions>
@@ -81,8 +81,8 @@
                         Width="415"
                         Margin="5"
                         HorizontalAlignment="Left"
-                        ToolTip="Name of the category"
-                        materialDesign:HintAssist.Hint="Flag category"
+                        ToolTip="类别名"
+                        materialDesign:HintAssist.Hint="事件标志分类"
                         Text="{Binding CategoryName}"/>
 
                     <!-- Flag -->
@@ -97,7 +97,7 @@
                             Margin="5,0,0,0"
                             HorizontalAlignment="Left"
                             Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
-                            ToolTip="Add a split"
+                            ToolTip="添加一个分段"
                             Command="{Binding CommandAddEventFlag}">
                             <materialDesign:PackIcon
                                 Kind="Plus"
@@ -109,7 +109,7 @@
                             Margin="5,0,0,0"
                             HorizontalAlignment="Left"
                             Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
-                            ToolTip="Remove selected split"
+                            ToolTip="移除所选分段"
                             Command="{Binding CommandRemoveEventFlag}">
                             <materialDesign:PackIcon
                                 Kind="Close"
@@ -159,7 +159,7 @@
                 </Grid>
             </TabItem>
 
-            <TabItem Header="UI settings">
+            <TabItem Header="界面设置">
                 <Grid
                     Grid.Column="2" 
                     Grid.RowSpan="4">
@@ -179,7 +179,7 @@
 
                     <Label
                         Grid.Row="0"
-                        Content="Background color" 
+                        Content="背景色" 
                         VerticalAlignment="Bottom"/>
 
                     <materialDesign:ColorPicker 
@@ -204,7 +204,7 @@
 
                     <Label 
                         Grid.Row="3"
-                        Content="Text color" 
+                        Content="文字颜色" 
                         Margin="5"/>
 
                     <materialDesign:ColorPicker
@@ -237,8 +237,8 @@
                     <TextBox 
                         Margin="5"
                         Grid.Row="7"
-                        materialDesign:HintAssist.HelperText="Total percentage font size"
-                        ToolTip="Total percentage font size">
+                        materialDesign:HintAssist.HelperText="字体大小比例"
+                        ToolTip="字体大小比例">
                         <TextBox.Text>
                             <Binding Path="TotalPercentageFontSize">
                                 <Binding.ValidationRules>
@@ -257,7 +257,7 @@
                     
                     <TextBox 
                         Grid.Row="9"
-                        ToolTip="Total percentage font size">
+                        ToolTip="字体大小比例">
                         <TextBox.Text>
                             <Binding Path="CategoryPercentageFontSize">
                                 <Binding.ValidationRules>
@@ -270,11 +270,11 @@
                     <StackPanel  Grid.Row="10">
                     <RadioButton 
                         GroupName="ProgressDisplayModeGroup"
-                        Content="Display percentage"
+                        Content="显示比例"
                         IsChecked="{Binding DisplayMode, Converter={StaticResource EnumValueEnumParameterConverter}, ConverterParameter={x:Static generic:EventFlagTrackerDisplayMode.Percentage}}"/>
                     <RadioButton
                         GroupName="ProgressDisplayModeGroup"
-                        Content="Display count"
+                        Content="显示数量"
                         IsChecked="{Binding DisplayMode, Converter={StaticResource EnumValueEnumParameterConverter}, ConverterParameter={x:Static generic:EventFlagTrackerDisplayMode.Count}}"/>
                     </StackPanel>
                 </Grid>
