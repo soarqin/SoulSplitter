@@ -23,79 +23,79 @@ namespace SoulMemory.DarkSouls3
     {
         //Academy of Raya Lucaria
 
-        [Annotation(Name = "Iudex Gundyr", Description = "Cemetery of Ash")]
+        [Annotation(Name = "“灰烬审判者”古达", Description = "灰烬墓地")]
         IudexGundyr = 14000800,
 
-        [Annotation(Name = "Vordt of the Boreal Valley", Description = "High Wall of Lothric")]
+        [Annotation(Name = "冷冽谷的玻尔多", Description = "洛斯里克的高墙")]
         VordtOfTheBorealValley = 13000800,
 
-        [Annotation(Name = "Curse-Rotted Greatwood", Description = "Undead Settlement")]
+        [Annotation(Name = "咒蚀大树", Description = "不死聚落")]
         CurseRottedGreatwood = 13100800,
-        
-        [Annotation(Name = "Crystal Sage", Description = "Road of Sacrifices")]
+
+        [Annotation(Name = "结晶老者", Description = "活祭品之路")]
         CrystalSage = 13300850,
-        
-        [Annotation(Name = "Abyss Watchers", Description = "Farron Keep")]
+
+        [Annotation(Name = "深渊的监视者", Description = "法兰要塞")]
         AbyssWatchers = 13300800,
-        
-        [Annotation(Name = "Deacons of the Deep", Description = "Cathedral of the Deep")]
+
+        [Annotation(Name = "幽邃主教群", Description = "幽邃教堂")]
         DeaconsOfTheDeep = 13500800,
-        
-        [Annotation(Name = "High Lord Wolnir", Description = "Catacombs of Carthus")]
+
+        [Annotation(Name = "霸王沃尼尔", Description = "卡萨斯的地下墓地")]
         HighLordWolnir = 13800800,
-        
-        [Annotation(Name = "Old Demon King", Description = "Smouldering Lake")]
+
+        [Annotation(Name = "老恶魔王", Description = "熏烟湖")]
         OldDemonKing = 13800830,
-        
-        [Annotation(Name = "Pontiff Sulyvahn", Description = "Irithyll of the Boreal Valley")]
+
+        [Annotation(Name = "教宗沙力万", Description = "冷冽谷的伊鲁席尔")]
         PontiffSulyvahn = 13700850,
-        
-        [Annotation(Name = "Yhorm the Giant", Description = "Profaned Capital")]
+
+        [Annotation(Name = "巨人尤姆", Description = "罪业之都")]
         YhormTheGiant = 13900800,
-        
-        [Annotation(Name = "Aldrich, Devourer of Gods", Description = "Anor Londo")]
+
+        [Annotation(Name = "吞噬神明的艾尔德利奇", Description = "亚诺尔隆德")]
         AldrichDevourerOfGods = 13700800,
-        
-        [Annotation(Name = "Dancer of the Boreal Valley", Description = "High Wall of Lothric")]
+
+        [Annotation(Name = "冷冽谷的舞娘", Description = "洛斯里克的高墙")]
         DancerOfTheBorealValley = 13000890,
 
-        [Annotation(Name = "Dragonslayer Armour", Description = "Lothric Castle")]
+        [Annotation(Name = "猎龙铠甲", Description = "洛斯里克城")]
         DragonslayerArmour = 13010800,
 
-        [Annotation(Name = "Oceiros, the Consumed King", Description = "Consumed King's Garden")]
+        [Annotation(Name = "妖王欧斯罗艾斯", Description = "妖王庭院")]
         OceirosTheConsumedKing = 13000830,
-        
-        [Annotation(Name = "Champion Gundyr", Description = "Untended Graves")]
+
+        [Annotation(Name = "英雄古达", Description = "无主墓地")]
         ChampionGundyr = 14000830,
 
-        [Annotation(Name = "Lothric, Younger Prince", Description = "The top of Lothric Castle")]
+        [Annotation(Name = "洛斯里克王子", Description = "洛斯里克城")]
         LothricYoungerPrince = 13410830,
 
-        [Annotation(Name = "Ancient Wyvern", Description = "Archdragon Peak")]
+        [Annotation(Name = "古老飞龙", Description = "古龙顶端")]
         AncientWyvern = 13200800,
-        
-        [Annotation(Name = "Nameless King", Description = "Archdragon Peak")]
+
+        [Annotation(Name = "无名王者", Description = "古龙顶端")]
         NamelessKing = 13200850,
-        
-        [Annotation(Name = "Soul of Cinder", Description = "Kiln of the First Flame")]
+
+        [Annotation(Name = "薪王们的化身", Description = "初始之火的火炉")]
         SoulOfCinder = 14100800,
-        
-        [Annotation(Name = "Sister Friede", Description = "Painted World of Ariandel")]
-        SisterFriede = 14500800,    
-        
-        [Annotation(Name = "Champion's Gravetender & Gravetender Greatwolf", Description = "Painted World of Ariandel")]
+
+        [Annotation(Name = "芙莉德修女", Description = "艾雷德尔的绘画世界")]
+        SisterFriede = 14500800,
+
+        [Annotation(Name = "王者的守墓人 & 守墓大狼", Description = "艾雷德尔的绘画世界")]
         ChampionsGravetenderAndGravetenderGreatwolf = 14500860,
-        
-        [Annotation(Name = "Demon in Pain & Demon From Below / Demon Prince", Description = "The Dreg Heap")]
+
+        [Annotation(Name = "负伤恶魔 & 洞底恶魔 / 恶魔王子", Description = "聚集地")]
         DemonInPainAndDemonFromBelowDemonPrince = 15000800,
 
-        [Annotation(Name = "Halflight, Spear of the Church", Description = "The Ringed City")]
+        [Annotation(Name = "“教堂之枪”贺弗莱特", Description = "环印城")]
         HalflightSpearOfTheChurch = 15100800,
 
-        [Annotation(Name = "Darkeater Midir", Description = "The Ringed City")]
+        [Annotation(Name = "吞噬黑暗的米狄尔", Description = "环印城")]
         DarkeaterMidir = 15100850,
-        
-        [Annotation(Name = "Slave Knight Gael", Description = "The Ringed City")]
+
+        [Annotation(Name = "奴隶骑士盖尔", Description = "环印城")]
         SlaveKnightGael = 15110800,
     }
 }

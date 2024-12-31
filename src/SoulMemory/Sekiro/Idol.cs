@@ -21,169 +21,169 @@ namespace SoulMemory.Sekiro
     [XmlType(Namespace = "Sekiro")]
     public enum Idol
     {
-        [Annotation(Name = "Dilapidated Temple", Description = "Ashina Outskirts")]
+        [Annotation(Name = "破旧寺院", Description = "苇名城 城邑")]
         DilapidatedTemple = 11100000,
 
-        [Annotation(Name = "Ashina Outskirts", Description = "Ashina Outskirts")]
+        [Annotation(Name = "苇名城 城邑", Description = "苇名城 城邑")]
         AshinaOutskirts = 11100006,
 
-        [Annotation(Name = "Outskirts Wall - Gate Path", Description = "Ashina Outskirts")]
+        [Annotation(Name = "城邑外围 城门道", Description = "苇名城 城邑")]
         OutskirtsWallGatePath = 11100001,
 
-        [Annotation(Name = "Outskirts Wall - Stairway", Description = "Ashina Outskirts")]
+        [Annotation(Name = "城邑外围 虎口阶梯", Description = "苇名城 城邑")]
         OutskirtsWallStairway = 11100002,
 
-        [Annotation(Name = "Underbridge Valley", Description = "Ashina Outskirts")]
+        [Annotation(Name = "桥下山谷", Description = "苇名城 城邑")]
         UnderbridgeValley = 11100003,
 
-        [Annotation(Name = "Ashina Castle Fortress", Description = "Ashina Outskirts")]
+        [Annotation(Name = "正门外城区", Description = "苇名城 城邑")]
         AshinaCastleFortress = 11100004,
 
-        [Annotation(Name = "Ashina Castle Gate", Description = "Ashina Outskirts")]
+        [Annotation(Name = "正门", Description = "苇名城 城邑")]
         AshinaCastleGate = 11100005,
 
-        [Annotation(Name = "Flames of Hatred", Description = "Ashina Outskirts")]
+        [Annotation(Name = "怨恨之火", Description = "苇名城 城邑")]
         FlamesOfHatred = 11100007,
 
-        [Annotation(Name = "Dragonspring - Hirata Estate", Description = "Hirata Estate")]
+        [Annotation(Name = "龙泉河畔 平田宅邸", Description = "龙泉河畔 平田宅邸")]
         DragonspringHirataEstate = 11000000,
 
-        [Annotation(Name = "Estate Path", Description = "Hirata Estate")]
+        [Annotation(Name = "宅邸街", Description = "龙泉河畔 平田宅邸")]
         EstatePath = 11000001,
 
-        [Annotation(Name = "Bamboo Thicket Slope", Description = "Hirata Estate")]
+        [Annotation(Name = "竹林坡", Description = "龙泉河畔 平田宅邸")]
         BambooThicketSlope = 11000002,
 
-        [Annotation(Name = "Hirata Estate - Main Hall", Description = "Hirata Estate")]
+        [Annotation(Name = "平田宅邸 主宅", Description = "龙泉河畔 平田宅邸")]
         HirataEstateMainHall = 11000003,
 
-        [Annotation(Name = "Hirata Audience Chamber", Description = "Hirata Estate")]
+        [Annotation(Name = "平田宅邸 回廊", Description = "龙泉河畔 平田宅邸")]
         HirataAudienceChamber = 11000005,
 
-        [Annotation(Name = "Hirata Estate - Hidden Temple", Description = "Hirata Estate")]
+        [Annotation(Name = "平田宅邸 隐藏佛堂", Description = "龙泉河畔 平田宅邸")]
         HirataEstateHiddenTemple = 11000004,
 
-        [Annotation(Name = "Ashina Castle", Description = "Ashina Castle")]
+        [Annotation(Name = "苇名城 主城", Description = "苇名城 主城")]
         AshinaCastle = 11110000,
 
-        [Annotation(Name = "Upper Tower - Antechamber", Description = "Ashina Castle")]
+        [Annotation(Name = "天守阁上层 武士候命室", Description = "苇名城 主城")]
         UpperTowerAntechamber = 11110001,
 
-        [Annotation(Name = "Upper Tower - Ashina Dojo", Description = "Ashina Castle")]
+        [Annotation(Name = "天守阁上层 苇名流道场", Description = "苇名城 主城")]
         UpperTowerAshinaDojo = 11110007,
 
-        [Annotation(Name = "Castle Tower Lookout", Description = "Ashina Castle")]
+        [Annotation(Name = "天守阁望楼", Description = "苇名城 主城")]
         CastleTowerLookout = 11110002,
 
-        [Annotation(Name = "Upper Tower - Kuro's Room", Description = "Ashina Castle")]
+        [Annotation(Name = "天守阁上层 神子居室", Description = "苇名城 主城")]
         UpperTowerKurosRoom = 11110003,
 
-        [Annotation(Name = "Old Grave", Description = "Ashina Castle")]
+        [Annotation(Name = "遗冢", Description = "苇名城 主城")]
         OldGrave = 11110006,
 
-        [Annotation(Name = "Great Serpent Shrine", Description = "Ashina Castle")]
+        [Annotation(Name = "白蛇神社", Description = "苇名城 主城")]
         GreatSerpentShrine = 11110004,
 
-        [Annotation(Name = "Abandoned Dungeon Entrance", Description = "Ashina Castle")]
+        [Annotation(Name = "地牢入口", Description = "苇名城 主城")]
         AbandonedDungeonEntrance = 11110005,
 
-        [Annotation(Name = "Ashina Reservoir", Description = "Ashina Castle")]
+        [Annotation(Name = "苇名城 贮水城区", Description = "苇名城 主城")]
         AshinaReservoir = 11120001,
 
-        [Annotation(Name = "Near Secret Passage", Description = "Ashina Castle")]
+        [Annotation(Name = "暗道前", Description = "苇名城 主城")]
         NearSecretPassage = 11120000,
 
-        [Annotation(Name = "Underground Waterway", Description = "Abandoned Dungeon")]
+        [Annotation(Name = "地下水道", Description = "地牢")]
         UndergroundWaterway = 11300000,
 
-        [Annotation(Name = "Bottomless Hole", Description = "Abandoned Dungeon")]
+        [Annotation(Name = "投身之所", Description = "地牢")]
         BottomlessHole = 11300001,
 
-        [Annotation(Name = "Senpou Temple, Mt. Kongo", Description = "Senpou Temple, Mt. Kongo")]
+        [Annotation(Name = "金刚山 仙峰寺", Description = "金刚山 仙峰寺")]
         SenpouTempleMtKongo = 12000000,
 
-        [Annotation(Name = "Shugendo", Description = "Senpou Temple, Mt. Kongo")]
+        [Annotation(Name = "修炼道", Description = "金刚山 仙峰寺")]
         Shugendo = 12000001,
 
-        [Annotation(Name = "Temple Grounds", Description = "Senpou Temple, Mt. Kongo")]
+        [Annotation(Name = "寺院境内", Description = "金刚山 仙峰寺")]
         TempleGrounds = 12000002,
 
-        [Annotation(Name = "Main Hall", Description = "Senpou Temple, Mt. Kongo")]
+        [Annotation(Name = "正殿", Description = "金刚山 仙峰寺")]
         MainHall = 12000003,
 
-        [Annotation(Name = "Inner Sanctum", Description = "Senpou Temple, Mt. Kongo")]
+        [Annotation(Name = "内殿", Description = "金刚山 仙峰寺")]
         InnerSanctum = 12000004,
 
-        [Annotation(Name = "Sunken Valley Cavern", Description = "Senpou Temple, Mt. Kongo")]
+        [Annotation(Name = "坠落之谷洞窟", Description = "金刚山 仙峰寺")]
         SunkenValleyCavern = 12000005,
 
-        [Annotation(Name = "Bell Demon's Temple", Description = "Senpou Temple, Mt. Kongo")]
+        [Annotation(Name = "钟鬼佛堂", Description = "金刚山 仙峰寺")]
         BellDemonsTemple = 12000006,
 
-        [Annotation(Name = "Under-Shrine Valley", Description = "Sunken Valley")]
+        [Annotation(Name = "社下山谷", Description = "坠落之谷")]
         UnderShrineValley = 11700007,
 
-        [Annotation(Name = "Sunken Valley", Description = "Sunken Valley")]
+        [Annotation(Name = "坠落之谷", Description = "坠落之谷")]
         SunkenValley = 11700000,
 
-        [Annotation(Name = "Gun Fort", Description = "Sunken Valley")]
+        [Annotation(Name = "铁炮要塞", Description = "坠落之谷")]
         GunFort = 11700001,
 
-        [Annotation(Name = "Riven Cave", Description = "Sunken Valley")]
+        [Annotation(Name = "裂缝洞窟", Description = "坠落之谷")]
         RivenCave = 11700002,
 
-        [Annotation(Name = "Bodhisattva Valley", Description = "Sunken Valley")]
+        [Annotation(Name = "菩萨谷", Description = "坠落之谷")]
         BodhisattvaValley = 11700008,
 
-        [Annotation(Name = "Guardian Ape's Watering Hole", Description = "Sunken Valley")]
+        [Annotation(Name = "狮子猿饮水处", Description = "坠落之谷")]
         GuardianApesWateringHole = 11700003,
 
-        [Annotation(Name = "Ashina Depths", Description = "Ashina Depths")]
+        [Annotation(Name = "苇名之底", Description = "苇名之底")]
         AshinaDepths = 11700005,
 
-        [Annotation(Name = "Poison Pool", Description = "Ashina Depths")]
+        [Annotation(Name = "毒沼", Description = "苇名之底")]
         PoisonPool = 11700004,
 
-        [Annotation(Name = "Guardian Ape's Burrow", Description = "Ashina Depths")]
+        [Annotation(Name = "狮子猿巢穴", Description = "苇名之底")]
         GuardianApesBurrow = 11700006,
 
-        [Annotation(Name = "Hidden Forest", Description = "Ashina Depths")]
+        [Annotation(Name = "隐藏森林", Description = "苇名之底")]
         HiddenForest = 11500000,
 
-        [Annotation(Name = "Mibu Village", Description = "Ashina Depths")]
+        [Annotation(Name = "水生村", Description = "苇名之底")]
         MibuVillage = 11500001,
 
-        [Annotation(Name = "Water Mill", Description = "Ashina Depths")]
+        [Annotation(Name = "水车小屋", Description = "苇名之底")]
         WaterMill = 11500002,
 
-        [Annotation(Name = "Wedding Cave Door", Description = "Ashina Depths")]
+        [Annotation(Name = "乘轿石洞", Description = "苇名之底")]
         WeddingCaveDoor = 11500003,
 
-        [Annotation(Name = "Fountainhead Palace", Description = "Fountainhead Palace")]
+        [Annotation(Name = "源之宫", Description = "源之宫")]
         FountainheadPalace = 12500000,
 
-        [Annotation(Name = "Vermilion Bridge", Description = "Fountainhead Palace")]
+        [Annotation(Name = "朱桥", Description = "源之宫")]
         VermilionBridge = 12500001,
 
-        [Annotation(Name = "Mibu Manor", Description = "Fountainhead Palace")]
+        [Annotation(Name = "水生宅邸", Description = "源之宫")]
         MibuManor = 12500006,
 
-        [Annotation(Name = "Flower Viewing Stage", Description = "Fountainhead Palace")]
+        [Annotation(Name = "赏花舞台", Description = "源之宫")]
         FlowerViewingStage = 12500002,
 
-        [Annotation(Name = "Great Sakura", Description = "Fountainhead Palace")]
+        [Annotation(Name = "巨大樱树", Description = "源之宫")]
         GreatSakura = 12500003,
 
-        [Annotation(Name = "Palace Grounds", Description = "Fountainhead Palace")]
+        [Annotation(Name = "皇宫内", Description = "源之宫")]
         PalaceGrounds = 12500004,
 
-        [Annotation(Name = "Feeding Grounds", Description = "Fountainhead Palace")]
+        [Annotation(Name = "喂食处", Description = "源之宫")]
         FeedingGrounds = 12500007,
 
-        [Annotation(Name = "Near Pot Noble", Description = "Fountainhead Palace")]
+        [Annotation(Name = "坛子贵人", Description = "源之宫")]
         NearPotNoble = 12500008,
 
-        [Annotation(Name = "Sanctuary", Description = "Fountainhead Palace")]
+        [Annotation(Name = "神域", Description = "源之宫")]
         Sanctuary = 12500005,
     }
 }

@@ -21,235 +21,235 @@ namespace SoulMemory.DarkSouls3
     [XmlType(Namespace = "DarkSouls3")]
     public enum Bonfire : uint
     {
-        [Annotation(Name = "Firelink Shrine", Description="Cemetery of Ash")]
+        [Annotation(Name = "传火祭祀场", Description = "灰烬墓地")]
         FirelinkShrine = 14000000,
 
-        [Annotation(Name = "Cemetery of Ash", Description="Cemetery of Ash")]
+        [Annotation(Name = "灰烬墓地", Description = "灰烬墓地")]
         CemeteryOfAsh = 14000001,
 
-        [Annotation(Name = "Iudex Gundyr", Description="Cemetery of Ash")]
+        [Annotation(Name = "“灰烬审判者”古达", Description = "灰烬墓地")]
         IudexGundyr = 14000002,
 
-        [Annotation(Name = "Untended Graves", Description="Cemetery of Ash")]
+        [Annotation(Name = "无主墓地", Description = "灰烬墓地")]
         UntendedGraves = 14000003,
 
-        [Annotation(Name = "Champion Gundyr", Description="Cemetery of Ash")]
+        [Annotation(Name = "英雄古达", Description = "灰烬墓地")]
         ChampionGundyr = 14000004,
-        
-        [Annotation(Name = "High Wall of Lothric", Description="High Wall of Lothric")]
+
+        [Annotation(Name = "洛斯里克的高墙", Description = "洛斯里克的高墙")]
         HighWallOfLothric = 13000009,
 
-        [Annotation(Name = "Tower on the Wall", Description="High Wall of Lothric")]
+        [Annotation(Name = "高墙边塔", Description = "洛斯里克的高墙")]
         TowerOnTheWall = 13000005,
 
-        [Annotation(Name = "Vordt of the Boreal Valley", Description="High Wall of Lothric")]
+        [Annotation(Name = "冷冽谷的玻尔多", Description = "洛斯里克的高墙")]
         VordtOfTheBorealValley = 13000002,
 
-        [Annotation(Name = "Dancer of the Boreal Valley", Description="High Wall of Lothric")]
+        [Annotation(Name = "冷冽谷的舞娘", Description = "洛斯里克的高墙")]
         DancerOfTheBorealValley = 13000004,
 
-        [Annotation(Name = "Oceiros, the Consumed King", Description="High Wall of Lothric")]
+        [Annotation(Name = "妖王欧斯罗艾斯", Description = "洛斯里克的高墙")]
         OceirosTheConsumedKing = 13000001,
 
-        [Annotation(Name = "Foot of the High Wall", Description="Undead Settlement")]
+        [Annotation(Name = "高墙下方", Description = "不死聚落")]
         FootOfTheHighWall = 13100004,
 
-        [Annotation(Name = "Undead Settlement", Description="Undead Settlement")]
+        [Annotation(Name = "不死聚落", Description = "不死聚落")]
         UndeadSettlement = 13100000,
 
-        [Annotation(Name = "Cliff Underside", Description="Undead Settlement")]
+        [Annotation(Name = "悬崖下地下室", Description = "不死聚落")]
         CliffUnderside = 13100002,
 
-        [Annotation(Name = "Dilapidated Bridge", Description="Undead Settlement")]
+        [Annotation(Name = "颓旧桥端", Description = "不死聚落")]
         DilapidatedBridge = 13100003,
 
-        [Annotation(Name = "Pit of Hollows", Description="Undead Settlement")]
+        [Annotation(Name = "游魂的穴屋", Description = "不死聚落")]
         PitOfHollows = 13100001,
 
-        [Annotation(Name = "Road of Sacrifices", Description="Road of Sacrifices")]
+        [Annotation(Name = "活祭品之路", Description = "活祭品之路")]
         RoadOfSacrifices = 13300006,
 
-        [Annotation(Name = "Halfway Fortress", Description="Road of Sacrifices")]
+        [Annotation(Name = "路半边寨", Description = "活祭品之路")]
         HalfwayFortress = 13300000,
 
-        [Annotation(Name = "Crucifixion Woods", Description="Road of Sacrifices")]
+        [Annotation(Name = "磔罚森林", Description = "活祭品之路")]
         CrucifixionWoods = 13300007,
 
-        [Annotation(Name = "Crystal Sage", Description="Road of Sacrifices")]
+        [Annotation(Name = "结晶老者", Description = "活祭品之路")]
         CrystalSage = 13300002,
 
-        [Annotation(Name = "Farron Keep", Description="Road of Sacrifices")]
+        [Annotation(Name = "法兰要塞", Description = "活祭品之路")]
         FarronKeep = 13300003,
 
-        [Annotation(Name = "Keep Ruins", Description="Road of Sacrifices")]
+        [Annotation(Name = "要塞遗迹", Description = "活祭品之路")]
         KeepRuins = 13300004,
 
-        [Annotation(Name = "Farron Keep Perimeter", Description="Road of Sacrifices")]
+        [Annotation(Name = "要塞外围", Description = "活祭品之路")]
         FarronKeepPerimeter = 13300008,
 
-        [Annotation(Name = "Old Wolf of Farron", Description="Road of Sacrifices")]
+        [Annotation(Name = "法兰老狼", Description = "活祭品之路")]
         OldWolfOfFarron = 13300005,
 
-        [Annotation(Name = "Abyss Watchers", Description="Road of Sacrifices")]
+        [Annotation(Name = "深渊的监视者", Description = "活祭品之路")]
         AbyssWatchers = 13300001,
 
-        [Annotation(Name = "Cathedral of the Deep", Description="Cathedral of the Deep")]
+        [Annotation(Name = "幽邃教堂", Description = "幽邃教堂")]
         CathedralOfTheDeep = 13500003,
 
-        [Annotation(Name = "Cleansing Chapel", Description="Cathedral of the Deep")]
+        [Annotation(Name = "净身小教会", Description = "幽邃教堂")]
         CleansingChapel = 13500000,
 
-        [Annotation(Name = "Rosaria's Bed Chamber", Description="Cathedral of the Deep")]
+        [Annotation(Name = "罗莎莉亚寝室", Description = "幽邃教堂")]
         RosariasBedChamber = 13500002,
 
-        [Annotation(Name = "Deacons of the Deep", Description="Cathedral of the Deep")]
+        [Annotation(Name = "幽邃主教群", Description = "幽邃教堂")]
         DeaconsOfTheDeep = 13500001,
 
-        [Annotation(Name = "Catacombs of Carthus", Description="Catacombs of Carthus")]
+        [Annotation(Name = "卡萨斯的地下墓地", Description = "卡萨斯的地下墓地")]
         CatacombsOfCarthus = 13800006,
 
-        [Annotation(Name = "High Lord Wolnir", Description="Catacombs of Carthus")]
+        [Annotation(Name = "霸王沃尼尔", Description = "卡萨斯的地下墓地")]
         HighLordWolnir = 13800000,
 
-        [Annotation(Name = "Abandoned Tomb", Description="Catacombs of Carthus")]
+        [Annotation(Name = "废弃地下墓地", Description = "卡萨斯的地下墓地")]
         AbandonedTomb = 13800001,
 
-        [Annotation(Name = "Old King's Antechamber", Description="Catacombs of Carthus")]
+        [Annotation(Name = "老王门厅", Description = "卡萨斯的地下墓地")]
         OldKingsAntechamber = 13800002,
 
-        [Annotation(Name = "Demon Ruins", Description="Catacombs of Carthus")]
+        [Annotation(Name = "Demon Ruins", Description = "卡萨斯的地下墓地")]
         DemonRuins = 13800003,
 
-        [Annotation(Name = "Old Demon King", Description="Catacombs of Carthus")]
+        [Annotation(Name = "老恶魔王", Description = "卡萨斯的地下墓地")]
         OldDemonKing = 13800004,
 
-        [Annotation(Name = "Irithyll of the Boreal Valley", Description="Irithyll of the Boreal Valley")]
+        [Annotation(Name = "冷冽谷的伊鲁席尔", Description = "冷冽谷的伊鲁席尔")]
         IrithyllOfTheBorealValley = 13700007,
 
-        [Annotation(Name = "Central Irithyll", Description="Irithyll of the Boreal Valley")]
+        [Annotation(Name = "伊鲁席尔街道", Description = "冷冽谷的伊鲁席尔")]
         CentralIrithyll = 13700004,
 
-        [Annotation(Name = "Church of Yorshka", Description="Irithyll of the Boreal Valley")]
+        [Annotation(Name = "幽儿希卡教会", Description = "冷冽谷的伊鲁席尔")]
         ChurchOfYorshka = 13700000,
 
-        [Annotation(Name = "Distant Manor", Description="Irithyll of the Boreal Valley")]
+        [Annotation(Name = "离街废屋", Description = "冷冽谷的伊鲁席尔")]
         DistantManor = 13700005,
 
-        [Annotation(Name = "Pontiff Sulyvahn", Description="Irithyll of the Boreal Valley")]
+        [Annotation(Name = "教宗沙力万", Description = "冷冽谷的伊鲁席尔")]
         PontiffSulyvahn = 13700001,
 
-        [Annotation(Name = "Water Reserve", Description="Irithyll of the Boreal Valley")]
+        [Annotation(Name = "储水槽", Description = "冷冽谷的伊鲁席尔")]
         WaterReserve = 13700006,
 
-        [Annotation(Name = "Anor Londo", Description="Irithyll of the Boreal Valley")]
+        [Annotation(Name = "亚诺尔隆德", Description = "冷冽谷的伊鲁席尔")]
         AnorLondo = 13700003,
 
-        [Annotation(Name = "Prison Tower", Description="Irithyll of the Boreal Valley")]
+        [Annotation(Name = "俘虏之塔", Description = "冷冽谷的伊鲁席尔")]
         PrisonTower = 13700008,
 
-        [Annotation(Name = "Aldrich, Devourer of Gods", Description="Irithyll of the Boreal Valley")]
+        [Annotation(Name = "吞噬神明的艾尔德利奇", Description = "冷冽谷的伊鲁席尔")]
         AldrichDevourerOfGods = 13700002,
 
-        [Annotation(Name = "Irithyll Dungeon", Description="Irithyll Dungeon")]
+        [Annotation(Name = "伊鲁席尔地下监牢", Description = "伊鲁席尔地下监牢")]
         IrithyllDungeon = 13900000,
 
-        [Annotation(Name = "Profaned Capital", Description="Irithyll Dungeon")]
+        [Annotation(Name = "罪业之都", Description = "伊鲁席尔地下监牢")]
         ProfanedCapital = 13900002,
 
-        [Annotation(Name = "Yhorm the Giant", Description="Irithyll Dungeon")]
+        [Annotation(Name = "巨人尤姆", Description = "伊鲁席尔地下监牢")]
         YhormTheGiant = 13900001,
 
-        [Annotation(Name = "Lothric Castle", Description="Lothric Castle")]
+        [Annotation(Name = "洛斯里克城", Description = "洛斯里克城")]
         LothricCastle = 13010000,
 
-        [Annotation(Name = "Dragon Barracks", Description="Lothric Castle")]
+        [Annotation(Name = "龙训练场", Description = "洛斯里克城")]
         DragonBarracks = 13010002,
 
-        [Annotation(Name = "Dragonslayer Armour", Description="Lothric Castle")]
+        [Annotation(Name = "猎龙铠甲", Description = "洛斯里克城")]
         DragonslayerArmour = 13010001,
 
-        [Annotation(Name = "Grand Archives", Description="Lothric Castle")]
+        [Annotation(Name = "大书库", Description = "洛斯里克城")]
         GrandArchives = 13410001,
 
-        [Annotation(Name = "Twin Princes", Description="Lothric Castle")]
+        [Annotation(Name = "孪生王子", Description = "洛斯里克城")]
         TwinPrinces = 13410000,
 
-        [Annotation(Name = "Archdragon Peak", Description="Archdragon Peak")]
+        [Annotation(Name = "古龙顶端", Description = "古龙顶端")]
         ArchdragonPeak = 13200000,
 
-        [Annotation(Name = "Dragon-Kin Mausoleum", Description="Archdragon Peak")]
+        [Annotation(Name = "龙人灵庙", Description = "古龙顶端")]
         DragonKinMausoleum = 13200003,
 
-        [Annotation(Name = "Great Belfry", Description="Archdragon Peak")]
+        [Annotation(Name = "大钟楼", Description = "古龙顶端")]
         GreatBelfry = 13200002,
 
-        [Annotation(Name = "Nameless King", Description="Archdragon Peak")]
+        [Annotation(Name = "无名王者", Description = "古龙顶端")]
         NamelessKing = 13200001,
 
-        [Annotation(Name = "Flameless Shrine", Description="Kiln of the First Flame")]
+        [Annotation(Name = "火已消逝的祭祀场", Description = "初始之火的火炉")]
         FlamelessShrine = 14100000,
 
-        [Annotation(Name = "Kiln of the First Flame", Description="Kiln of the First Flame")]
+        [Annotation(Name = "初始之火的火炉", Description = "初始之火的火炉")]
         KilnOfTheFirstFlame = 14100001,
-        
-        [Annotation(Name = "Snowfield", Description="The Painted World of Ariandel")]
+
+        [Annotation(Name = "雪原", Description = "艾雷德尔的绘画世界")]
         Snowfield = 14500001,
 
-        [Annotation(Name = "Rope Bridge Cave", Description="The Painted World of Ariandel")]
+        [Annotation(Name = "吊桥近窟", Description = "艾雷德尔的绘画世界")]
         RopeBridgeCave = 14500002,
 
-        [Annotation(Name = "Corvian Settlement", Description="The Painted World of Ariandel")]
+        [Annotation(Name = "鸦村", Description = "艾雷德尔的绘画世界")]
         CorvianSettlement = 14500003,
 
-        [Annotation(Name = "Snowy Mountain Pass", Description="The Painted World of Ariandel")]
+        [Annotation(Name = "覆雪山径", Description = "艾雷德尔的绘画世界")]
         SnowyMountainPass = 14500004,
 
-        [Annotation(Name = "Ariandel Chapel", Description="The Painted World of Ariandel")]
+        [Annotation(Name = "艾雷德尔礼拜堂", Description = "艾雷德尔的绘画世界")]
         AriandelChapel = 14500005,
 
-        [Annotation(Name = "Sister Friede", Description="The Painted World of Ariandel")]
+        [Annotation(Name = "芙莉德修女", Description = "艾雷德尔的绘画世界")]
         SisterFriede = 14500000,
 
-        [Annotation(Name = "Depths of the Painting", Description="The Painted World of Ariandel")]
+        [Annotation(Name = "绘画底端", Description = "艾雷德尔的绘画世界")]
         DepthsOfThePainting = 14500007,
 
-        [Annotation(Name = "Champion's Gravetender", Description="The Painted World of Ariandel")]
+        [Annotation(Name = "王者的守墓人", Description = "艾雷德尔的绘画世界")]
         ChampionsGravetender = 14500006,
 
-        [Annotation(Name = "The Dreg Heap", Description="The Dreg Heap")]
+        [Annotation(Name = "聚集地", Description = "聚集地")]
         TheDregHeap = 15000001,
 
-        [Annotation(Name = "Earthen Peak Ruins", Description="The Dreg Heap")]
+        [Annotation(Name = "堆土塔残骸", Description = "聚集地")]
         EarthenPeakRuins = 15000002,
 
-        [Annotation(Name = "Within the Earthen Peak Ruins", Description="The Dreg Heap")]
+        [Annotation(Name = "堆土塔残骸：内部", Description = "聚集地")]
         WithinTheEarthenPeakRuins = 15000003,
 
-        [Annotation(Name = "The Demon Prince", Description="The Dreg Heap")]
+        [Annotation(Name = "恶魔王子", Description = "聚集地")]
         TheDemonPrince = 15000000,
 
-        [Annotation(Name = "Mausoleum Lookout", Description="The Ringed City")]
+        [Annotation(Name = "王庙守卫", Description = "环印城")]
         MausoleumLookout = 15100002,
 
-        [Annotation(Name = "Ringed Inner Wall", Description="The Ringed City")]
+        [Annotation(Name = "环状墙内部", Description = "环印城")]
         RingedInnerWall = 15100003,
 
-        [Annotation(Name = "Ringed City Streets", Description="The Ringed City")]
+        [Annotation(Name = "环印城市街", Description = "环印城")]
         RingedCityStreets = 15100004,
 
-        [Annotation(Name = "Shared Grave", Description="The Ringed City")]
+        [Annotation(Name = "公墓", Description = "环印城")]
         SharedGrave = 15100005,
 
-        [Annotation(Name = "Church of Filianore", Description="The Ringed City")]
+        [Annotation(Name = "费莲诺尔教堂", Description = "环印城")]
         ChurchOfFilianore = 15100000,
 
-        [Annotation(Name = "Darkeater Midir", Description="The Ringed City")]
+        [Annotation(Name = "吞噬黑暗的米狄尔", Description = "环印城")]
         DarkeaterMidir = 15100001,
 
-        [Annotation(Name = "Filianore's Rest", Description="The Ringed City")]
+        [Annotation(Name = "费莲诺尔寝房", Description = "环印城")]
         FilianoresRest = 15110001,
 
-        [Annotation(Name = "Slave Knight Gael", Description="The Ringed City")]
+        [Annotation(Name = "奴隶骑士盖尔", Description = "环印城")]
         SlaveKnightGael = 15110000,
     }
 }

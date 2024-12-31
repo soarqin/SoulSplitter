@@ -21,49 +21,49 @@ namespace SoulMemory.Sekiro
     [XmlType(Namespace = "Sekiro")]
     public enum Boss
     {
-        [Annotation(Name = "Gyoubu Masataka Oniwa")]
+        [Annotation(Name = "鬼形部")]
         GyoubuMasatakaOniwa = 9301,
-        
-        [Annotation(Name = "Lady Butterfly")]              
+
+        [Annotation(Name = "幻影之蝶")]
         LadyButterfly = 9302,
 
-        [Annotation(Name = "Genichiro Ashina")]            
+        [Annotation(Name = "苇名弦一郎")]
         GenichiroAshina = 9303,
-            
-        [Annotation(Name = "Folding Screen Monkeys")]      
+
+        [Annotation(Name = "观猴、闻猴、言猴")]
         FoldingScreenMonkeys = 9305,
-        
-        [Annotation(Name = "Guardian Ape")]                
+
+        [Annotation(Name = "狮子猿")]
         GuardianApe = 9304,
-        
-        [Annotation(Name = "Headless Ape")]                
+
+        [Annotation(Name = "无首狮子猿")]
         HeadlessApe = 9307,
-        
-        [Annotation(Name = "Corrupted Monk (ghost)")]      
+
+        [Annotation(Name = "破戒僧 (幻影)")]
         CorruptedMonkGhost = 9306,
 
-        [Annotation(Name = "Emma, the Gentle Blade")]      
+        [Annotation(Name = "柔剑 永真")]
         EmmaTheGentleBlade = 9315,
 
-        [Annotation(Name = "Isshin Ashina")]               
+        [Annotation(Name = "苇名一心")]
         IsshinAshina = 9316,
 
-        [Annotation(Name = "Great Shinobi Owl")]            
+        [Annotation(Name = "巨型忍者 枭")]
         GreatShinobiOwl = 9308,
 
-        [Annotation(Name = "True Corrupted Monk")]         
+        [Annotation(Name = "破戒僧")]
         TrueCorruptedMonk = 9309,
 
-        [Annotation(Name = "Divine Dragon")]               
+        [Annotation(Name = "樱龙")]
         DivineDragon = 9310,
 
-        [Annotation(Name = "Owl (Father)")]                
+        [Annotation(Name = "义父")]
         OwlFather = 9317,
 
-        [Annotation(Name = "Demon of Hatred")]             
+        [Annotation(Name = "怨恨之鬼")]
         DemonOfHatred = 9313,
 
-        [Annotation(Name = "Isshin, the Sword Saint")]     
+        [Annotation(Name = "剑圣 苇名一心")]
         IsshinTheSwordSaint = 9312,
     }
 }
